@@ -20,15 +20,18 @@
 
 ## Wallet Daemon
 
-* [Untitled](wallet-daemon/untitled.md)
+* [Get Started](wallet-daemon/get-started/README.md)
+  * [Daemon Installation](wallet-daemon/get-started/untitled.md)
+  * [Daemon First Steps](wallet-daemon/get-started/daemon-first-steps.md)
+  * [Daemon Usage](wallet-daemon/get-started/daemon-usage.md)
 
-## Java SDK
+## SDKs
 
-* [Untitled](java-sdk/untitled.md)
-
-## Godot SDK
-
-* [Untitled](godot-sdk/untitled.md)
+* [Java](sdks/untitled.md)
+* [Godot](sdks/godot.md)
+* [C++](sdks/untitled-1.md)
+* [C\#](sdks/c.md)
+* [Minecraft Plugin](sdks/minecraft-plugin.md)
 
 ## Resources
 
@@ -36,6 +39,7 @@
 * [📈 Enjin Status](https://www.enjinstatus.com/)
 * [💡 Submit your Feedback](https://feedback.enjin.io)
 * [💲 Bug Bounty](https://hackerone.com/enjin?type=team&view_policy=true)
+* [✨ Discord Community](https://discord.com/invite/xCbHnEzAWE)
 * [💬 Contact Support](https://enjin/support/contact)
 
 ## Downloads
