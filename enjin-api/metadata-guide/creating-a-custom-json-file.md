@@ -30,7 +30,7 @@ If an individual Non-Fungible token ID has a metadata URI defined, client apps s
 
 A non-fungible token that defines a Default URI in its base token has the option of using an {id} placeholder in the URI itself. This will get replaced with the distinct ID when accessing NFTs.
 
-Example:
+**Example:**
 
 > yoursite.com/{id}.json -&gt; yoursite.com/bd4818c04f57a2ebc473d74ee06d6e0600000000000000000000000000000001.json
 
