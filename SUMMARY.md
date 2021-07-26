@@ -30,8 +30,16 @@
 
 ## SDKs
 
-* [Java](sdks/untitled.md)
-* [Godot](sdks/godot.md)
+* [Java](sdks/untitled/README.md)
+  * [Introduction to Java SDK](sdks/untitled/introduction-to-java-sdk.md)
+  * [Authentication](sdks/untitled/authentication.md)
+  * [Player Management](sdks/untitled/player-management.md)
+  * [Creating Requests](sdks/untitled/creating-requests.md)
+* [Godot](sdks/godot/README.md)
+  * [Introduction to Godot SDK](sdks/godot/introduction-to-godot-sdk.md)
+  * [Authentication](sdks/godot/authentication.md)
+  * [Player Management](sdks/godot/player-management.md)
+  * [Creating Requests](sdks/godot/creating-requests.md)
 * [C++](sdks/untitled-1.md)
 * [C\#](sdks/c.md)
 * [Minecraft Plugin](sdks/minecraft-plugin.md)
@@ -52,5 +60,5 @@
 * [Unity SDK](https://assetstore.unity.com/packages/tools/utilities/blockchain-sdk-by-enjin-124133)
 * [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [Java SDK](https://github.com/enjin/enjin-java-sdk)
-* [Minecraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
+* [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
 
