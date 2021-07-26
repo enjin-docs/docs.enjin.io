@@ -15,6 +15,9 @@
 * [How to Get Started](enjin-api/how-to-get-started.md)
 * [Managing Your Users](enjin-api/managing-your-users.md)
 * [Sending & Receiving Requests](enjin-api/sending-and-receiving-requests.md)
+* [Metadata Guide](enjin-api/metadata-guide/README.md)
+  * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
+  * [Invalidating Your Metadata](enjin-api/metadata-guide/invalidating-your-metadata.md)
 * [Minting Your Assets](enjin-api/minting-your-assets.md)
 * [Managing Your Assets](enjin-api/managing-your-assets.md)
 
