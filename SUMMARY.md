@@ -42,7 +42,6 @@
   * [Creating Requests](sdks/godot/creating-requests.md)
 * [C++](sdks/untitled-1.md)
 * [C\#](sdks/c.md)
-* [Minecraft Plugin](sdks/minecraft-plugin.md)
 
 ## Resources
 
