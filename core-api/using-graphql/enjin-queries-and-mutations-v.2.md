@@ -62,3 +62,19 @@ You can find comprehensive information about what data can be queried and mutate
 
 To find it, go to the [**GraphiQL visual interface**](https://jumpnet.cloud.enjin.io/graphql/playground) and click the `Docs` button on the sidebar.
 
+### Querying Variables
+
+You may notice in our documentation, we provide examples of our queries and mutations that you can use and they will often contain variables within them. You can query these variables by simply passing through the data in the `Query Variables` section at the bottom of the page.
+
+Simply slide up the bottom bar \(Query Variables\) and begin inputting the variables and their respective data.
+
+![](https://assets-global.website-files.com/5d56cb37dc00727a4f69850c/5ffb6dae0d861daea4ea4c02_querying_using_variables.png)
+
+### Browsing the Schema
+
+On the right side, there is the documentation panel to expand and browse for all the requests and parameters you can use. See [here](https://graphql.org/learn/queries/) for documentation on Queries and Mutations. 
+
+### Making a Request
+
+On the \(top\) left panel, you would enter in your request to be made to the Enjin Cloud. Press the `Play`button at the top to submit your request, and you will receive a response on the right panel. At times, a notification will appear in your wallet to sign a transaction depending on the request made.
+
