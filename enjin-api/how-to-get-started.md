@@ -2,7 +2,7 @@
 description: Learn how to get set-up and start using the Enjin API
 ---
 
-# How to Get Started
+# Getting Started
 
 As you start, it's **very important** that all of your admin and user data is parsed and stored by a secure server.
 

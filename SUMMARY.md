@@ -18,7 +18,7 @@
 
 ## Enjin API
 
-* [How to Get Started](enjin-api/how-to-get-started.md)
+* [Getting Started](enjin-api/how-to-get-started.md)
 * [Managing Your Users](enjin-api/managing-your-users/README.md)
   * [Player Requests](enjin-api/managing-your-users/player-requests.md)
 * [Sending & Receiving Requests](enjin-api/sending-and-receiving-requests.md)
