@@ -6,7 +6,9 @@
 
 * [Using GraphQL](core-api/using-graphql/README.md)
   * [GraphQL: Visual Interface](core-api/using-graphql/graphql-visual-interface.md)
-  * [Enjin Queries & Mutations](core-api/using-graphql/enjin-queries-and-mutations.md)
+  * [Enjin Queries & Mutations \(V.1\)](core-api/using-graphql/enjin-queries-and-mutations.md)
+  * [Enjin Queries & Mutations \(V.2\)](core-api/using-graphql/enjin-queries-and-mutations-v.2.md)
+  * [Project and Player Requests](core-api/using-graphql/project-and-player-requests.md)
 * [Connect to Enjin API](core-api/connect-to-enjin-api.md)
 * [Linking Your Wallet](core-api/link-your-wallet/README.md)
   * [Linking a User's Wallet](core-api/link-your-wallet/linking-a-users-wallet.md)
@@ -15,7 +17,8 @@
 ## Enjin API
 
 * [How to Get Started](enjin-api/how-to-get-started.md)
-* [Managing Your Users](enjin-api/managing-your-users.md)
+* [Managing Your Users](enjin-api/managing-your-users/README.md)
+  * [Player Requests](enjin-api/managing-your-users/player-requests.md)
 * [Sending & Receiving Requests](enjin-api/sending-and-receiving-requests.md)
 * [Metadata Guide](enjin-api/metadata-guide/README.md)
   * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
@@ -51,7 +54,7 @@
 * [📈 Enjin Status](https://www.enjinstatus.com/)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
-* [✨ Discord Community](https://discord.com/invite/xCbHnEzAWE)
+* [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
 * [💬 Contact Support](https://enjin/support/contact)
 
 ## Downloads
@@ -59,7 +62,7 @@
 ---
 
 * [Unity SDK](https://assetstore.unity.com/packages/tools/utilities/blockchain-sdk-by-enjin-124133)
-* [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [Java SDK](https://github.com/enjin/enjin-java-sdk)
+* [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
 

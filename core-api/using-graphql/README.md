@@ -1,5 +1,5 @@
 ---
-description: Learn how you can get started
+description: Learn more about GraphQL and How to Get Started
 ---
 
 # Using GraphQL
@@ -18,28 +18,6 @@ GraphQL queries access not just the properties of one resource but also smoothly
 
 Object types are sets of fields that are used to define the set of data you can query from the API.
 
-{% tabs %}
-{% tab title="V1" %}
-query { 
-
-}
-
-mutation { 
-
-}
-{% endtab %}
-
-{% tab title="V2" %}
-query { 
-
-}
-
-mutation { 
-
-}
-{% endtab %}
-{% endtabs %}
-
 ```graphql
 query {
 
@@ -56,20 +34,6 @@ Fields are used to ask for specific object properties.
 
 Each object has fields that can be queried by name in order to query for the properties you need.
 
-{% tabs %}
-{% tab title="V1" %}
-```graphql
-query GetToken($name: String) {
-token: EnjinTokens(
-  name: $name
-) {
-  id
-}
-}
-```
-{% endtab %}
-
-{% tab title="v2" %}
 ```graphql
 query {
  EnjinToken {
@@ -77,24 +41,26 @@ query {
  }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
 ### Arguments
 
 You can determine the return value of a query by passing arguments to it. This narrows down the results and allows you to only get what you're after.
 
-In the following example, the object is “token”, the requested field is “name”, the argument is “id”.
+In the following example, the object is `GetAsset`, the requested field is `id`, the arguments are `id`, `name`, `createdAt`, `updatedAt`, `wallet` and `ethAddress`.
 
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
-query GetToken($name: String) {
-token: EnjinTokens(
-  name: $name
-) {
-  id
-}
+query {
+  GetAsset(id: "708000000000088e") {
+    id
+    name
+    createdAt
+    updatedAt
+    wallet {
+      ethAddress
+    }
+  }
 }
 ```
 {% endtab %}

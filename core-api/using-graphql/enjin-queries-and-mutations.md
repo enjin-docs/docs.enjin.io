@@ -2,7 +2,7 @@
 description: A list of all Enjin Queries and Mutations
 ---
 
-# Enjin Queries & Mutations
+# Enjin Queries & Mutations \(V.1\)
 
 Querying is the way to ask for data, it’s similar to the GET action in REST-based APIs.
 
