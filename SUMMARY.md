@@ -8,7 +8,9 @@
   * [GraphQL: Visual Interface](core-api/using-graphql/graphql-visual-interface.md)
   * [Enjin Queries & Mutations](core-api/using-graphql/enjin-queries-and-mutations.md)
 * [Connect to Enjin API](core-api/connect-to-enjin-api.md)
-* [Link Your Wallet](core-api/link-your-wallet.md)
+* [Linking Your Wallet](core-api/link-your-wallet/README.md)
+  * [Linking a User's Wallet](core-api/link-your-wallet/linking-a-users-wallet.md)
+  * [Viewing a User's NFTs](core-api/link-your-wallet/viewing-a-users-nfts.md)
 
 ## Enjin API
 
@@ -45,10 +47,10 @@
 
 ## Resources
 
-* [💻 GraphQL Playground](https://cloud.enjin.io/graphql/playground)
+* [💻 GraphQL Playground \(JumpNet\)](https://jumpnet.cloud.enjin.io)
 * [📈 Enjin Status](https://www.enjinstatus.com/)
-* [💡 Submit your Feedback](https://feedback.enjin.io)
-* [💲 Bug Bounty](https://hackerone.com/enjin?type=team&view_policy=true)
+* [💡 Submit Your Feedback](https://feedback.enjin.io)
+* [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
 * [✨ Discord Community](https://discord.com/invite/xCbHnEzAWE)
 * [💬 Contact Support](https://enjin/support/contact)
 
