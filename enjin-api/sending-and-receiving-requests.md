@@ -1,4 +1,4 @@
-# Sending & Receiving Requests
+# Sending & Receiving
 
 You may want to send assets to your players, request for them to send you assets, or even request for them to send each other assets.
 

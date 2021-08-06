@@ -2,7 +2,7 @@
 description: Learn more about GraphQL and How to Get Started
 ---
 
-# Using GraphQL
+# What is GraphQL?
 
 GraphQL is a modern query language that allows you to define the data structure of your queries and ask for exactly what you want and nothing more.
 

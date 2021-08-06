@@ -1,8 +1,8 @@
 ---
-description: Find all of the Requests that can be made by a Project
+description: Find all of the requests that can be run by a Project
 ---
 
-# Project Requests
+# Project
 
 ## Queries
 

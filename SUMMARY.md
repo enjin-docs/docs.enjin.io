@@ -4,24 +4,24 @@
 
 ## Getting Set Up <a id="core-api"></a>
 
-* [Using GraphQL](core-api/using-graphql/README.md)
+* [What is GraphQL?](core-api/using-graphql/README.md)
   * [GraphQL: Visual Interface](core-api/using-graphql/graphql-visual-interface.md)
   * [Enjin Queries & Mutations \(V.1\)](core-api/using-graphql/enjin-queries-and-mutations.md)
   * [Enjin Queries & Mutations \(V.2\)](core-api/using-graphql/enjin-queries-and-mutations-v.2.md)
 * [Project & Player Requests](core-api/project-and-player-requests/README.md)
-  * [Project Requests](core-api/project-and-player-requests/project-requests.md)
-  * [Player Requests](core-api/project-and-player-requests/player-requests.md)
+  * [Project](core-api/project-and-player-requests/project-requests.md)
+  * [Player](core-api/project-and-player-requests/player-requests.md)
 * [Connect to Enjin API](core-api/connect-to-enjin-api.md)
-* [Linking Your Wallet](core-api/link-your-wallet/README.md)
-  * [Linking a User's Wallet](core-api/link-your-wallet/linking-a-users-wallet.md)
-  * [Viewing a User's NFTs](core-api/link-your-wallet/viewing-a-users-nfts.md)
+* [Creating your Player](core-api/link-your-wallet.md)
 
 ## Enjin API
 
 * [Getting Started](enjin-api/how-to-get-started.md)
 * [Managing Your Players](enjin-api/managing-your-users/README.md)
+  * [Linking a Player's Wallet](enjin-api/managing-your-users/linking-a-users-wallet.md)
+  * [Viewing a Player's NFTs](enjin-api/managing-your-users/viewing-a-users-nfts.md)
   * [Additional Requests](enjin-api/managing-your-users/player-requests.md)
-* [Sending & Receiving Requests](enjin-api/sending-and-receiving-requests.md)
+* [Sending & Receiving](enjin-api/sending-and-receiving-requests.md)
 * [Metadata Guide](enjin-api/metadata-guide/README.md)
   * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
   * [Invalidating Your Metadata](enjin-api/metadata-guide/invalidating-your-metadata.md)

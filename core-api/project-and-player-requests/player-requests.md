@@ -1,8 +1,8 @@
 ---
-description: Find all of the Requests that can be made by a Player
+description: Find all of the requests that can be run by a Player
 ---
 
-# Player Requests
+# Player
 
 ## Queries
 
@@ -12,7 +12,7 @@ description: Find all of the Requests that can be made by a Player
 {% tab title="GraphQL" %}
 ```graphql
 query {
-  GetAsset(id: "708000000000088e") {
+  GetAsset(id: "tokenId") {
     id
     name
     createdAt
