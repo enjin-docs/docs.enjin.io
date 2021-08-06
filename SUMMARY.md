@@ -19,8 +19,8 @@
 ## Enjin API
 
 * [Getting Started](enjin-api/how-to-get-started.md)
-* [Managing Your Users](enjin-api/managing-your-users/README.md)
-  * [Player Requests](enjin-api/managing-your-users/player-requests.md)
+* [Managing Your Players](enjin-api/managing-your-users/README.md)
+  * [Additional Requests](enjin-api/managing-your-users/player-requests.md)
 * [Sending & Receiving Requests](enjin-api/sending-and-receiving-requests.md)
 * [Metadata Guide](enjin-api/metadata-guide/README.md)
   * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)

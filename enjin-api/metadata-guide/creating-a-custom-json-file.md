@@ -11,14 +11,14 @@ Once you have that .json file uploaded with public read access, you can make the
  Here is an example of a simple metadata schema:
 
 ```graphql
-{ "name": "item_name",
+{ 
+ "name": "item_name",
  "description": "Description line 1.\nDescription line2.",
  "image": "/image.jpg"
 }
 ```
 
-For more information on how to create a more robust JSON file, visit the [ERC-1155 Github](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md#erc-1155-metadata-uri-json-schema).  
-
+For more information on how to create a more robust JSON file, visit the [ERC-1155 Github](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1155.md#erc-1155-metadata-uri-json-schema).
 
 ### Specific Metadata URI
 
@@ -28,7 +28,7 @@ If an individual Non-Fungible token ID has a metadata URI defined, client apps s
 
 ### Default URI
 
-A non-fungible token that defines a Default URI in its base token has the option of using an {id} placeholder in the URI itself. This will get replaced with the distinct ID when accessing NFTs.
+A Non-Fungible token that defines a Default URI in its base token has the option of using an {id} placeholder in the URI itself. This will get replaced with the distinct ID when accessing NFTs.
 
 **Example:**
 
@@ -41,18 +41,4 @@ If the Default URI contains an image property that in turn contains the {id} pla
 > yoursite.com/images/{id}.jpg -&gt; yoursite.com/images/bd4818c04f57a2ebc473d74ee06d6e0600000000000000000000000000000001.jpg
 
 The **image** property can also be a static URI without the placeholder, as desired.
-
-In GraphiQL, you can set the URI for the item using the following mutation:
-
-```graphql
-mutation SetItemUri($identityId: Int!, $itemUriData: SetItemUriInput!) {
- CreateEnjinRequest(identity_id: $identityId, type: SET_ITEM_URI, set_item_uri_data: $itemUriData) {
-   id
-   encodedData
-   state
- }
-}
-```
-
-**Note:** Setting the URI is a blockchain transaction that you will need to approve in the Enjin Wallet under the "Requests" tab in order to see the metadata appear on your assets.
 

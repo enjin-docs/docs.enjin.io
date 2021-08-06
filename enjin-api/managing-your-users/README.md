@@ -1,48 +1,63 @@
-# Managing Your Users
+---
+description: Start manging your players with your integration
+---
 
-### Creating a User
+# Managing Your Players
 
-In this step, with the access token that you retrieved in the previous step, you will need to pass that as the authorization header when performing the `createUser` mutation.
+### Step 1: Creating a Player
+
+In this step, with the access token that you retrieved in the previous step, you will need to pass that as the authorization header when running the `CreatePlayer` mutation.
 
 Your authorization system needs to check to see if a user's account has been created yet.
 
 * If it hasn't, it should create a new account for them.
 * If it has, then the system should try to log them in.
 
-The following query will create a new user for your system:
+The following query will create a new player for your system:
 
 ```graphql
-mutation CreateUser($name: String!) {
- CreateEnjinUser(name: $name) {
-   id
-   accessTokens
-   identities {
-     linkingCode
-     linkingCodeQr
-     wallet {
-       ethAddress
-     }
-   }
- }
+mutation {
+  CreatePlayer(id: "John Wick") {
+    accessToken
+  }
 }
 ```
 
 Once you have created an Enjin account, it's advisable to enter the reference into your database, so you don't repeat this process unnecessarily in the future.
 
-### Loggin Your User In
+### Step 2: Loggin Your Player In
 
-In this final step of integration, once you are have confirmed that your user has an existing account, you can log your user in by following this query:
+In this final step of integration, once you are have confirmed that your player has an existing account, you can log your player in by following this query:
 
 ```graphql
-query RetrievePlayerAccessToken($name: String!) {
- AuthPlayer(id: $name) {
-   accessToken
-   expiresIn
- }
+query GetPlayerAccessToken {
+  AuthPlayer(id: "John Wick"){
+    accessToken
+    expiresIn
+  }
 }
 ```
 
-If the API returns a linking code, that means the user's Enjin Wallet is not linked. If no linking code is returned, this means the wallet is linked and you can send the user into the game.
+To check if your player has linked their Enjin Wallet, you can run the following query:
+
+```graphql
+{
+  GetPlayer(id: "John Wick") {
+    id
+    wallet {
+      ethAddress
+    }
+    linkingInfo {
+      code
+      qr
+    }
+    createdAt
+    updatedAt
+  }
+}
+```
+
+If the API request returns a valid linking code and/or linking QR link, then your player hasn't linked their wallet. If there's no linking code \(i.e. displaying `null`\), this means the wallet is linked and you can send your player into your game.
 
 
 

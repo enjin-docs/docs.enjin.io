@@ -37,7 +37,7 @@ If you want to check the status of the advanced send transaction to find out whe
 
 ```graphql
 query {
-  GetTransaction(id:xxxxx) {
+  GetTransaction(id: xxxxx) {
     id
     transactionId
     title
