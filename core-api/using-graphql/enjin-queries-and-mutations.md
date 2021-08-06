@@ -1,5 +1,5 @@
 ---
-description: A list of all Enjin Queries and Mutations
+description: A list of all Enjin Queries and Mutations for V.1 Schemas
 ---
 
 # Enjin Queries & Mutations \(V.1\)

@@ -1,43 +1,49 @@
 ---
-description: How to connect to Enjin API
+description: How to connect to the Enjin API
 ---
 
 # Connect to Enjin API
 
 Allow your app to communicate fluidly with the Enjin smart contract.
 
-This will allow you to programmatically view wallet inventory, mint tokens from your wallet, send tokens from your wallet, and request tokens from user wallets.
+This will allow you to programmatically view wallet inventory, mint assets from your wallet, send assets from your wallet, and request assets from users' wallets.
 
-### **Step 1**
+### **Step 1: Find your App ID & AppSecret**
 
-Find your **AppID** and **AppSecret** on the Enjin Platform.
+Firstly, you will need to locate your **AppID** and **AppSecret** on the Enjin platform.
 
-1. Go to [http://jumpnet.cloud.enjin.io](http://jumpnet.cloud.enjin.io/)
-2. Create or select your **Project**
-3. Select **Settings** in the sidebar
+1. Go to cloud.enjin.io \(if using Mainnet\), or jumpnet.cloud.enjin.io \(if using JumpNet\).
+2. Create or select your **Project.**
+   1. More information [here](https://enjin.io/help/creating-your-first-project), on how to create your project.
+3. Select **Settings** in the sidebar.
 
-You will find your **AppID** and **AppSecret** in the **Settings** panel
+You will find your **AppID** and **AppSecret** in the **Settings** panel.
 
-### **Step 2**
+### **Step 2: Generate your Authorization Token**
 
 Go to GraphQL Playground: [https://jumpnet.cloud.enjin.io/graphql/playground](https://jumpnet.cloud.enjin.io/graphql/playground)
 
-### **Step 3**
+Generate your unique authorization token by using the following query:
 
-Generate your authorization token by using this query:
-
+{% tabs %}
+{% tab title="GraphQL" %}
 ```graphql
-query RetrieveAppAccessToken {
- AuthApp(id: <App ID>, secret: "<App Secret>") {
- accessToken
- expiresIn
- }
+query GetPlayerAccessToken {
+  AuthPlayer(id: "userName"){
+    accessToken
+    expiresIn
+  }
 }
 ```
+{% endtab %}
+{% endtabs %}
 
-**IMPORTANT:** Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
+> **IMPORTANT:** Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
 
-### **Step 4**
+### **Step 3: Use your App Secret**
 
-You can now use your AppSecret to run queries from your server by querying the Enjin API: [https://jumpnet.cloud.enjin.io/graphql](https://jumpnet.cloud.enjin.io/graphql)
+You can now use your AppSecret to run queries from your server by querying the Enjin API. You can do this either via GraphiQL PlayGround on Mainnet or on JumpNet. 
+
+1. **Mainnet:** cloud.enjin.io/graphql/playground
+2. **JumpNet:** jumpnet.cloud.enjin.io/graphqlplayground
 
