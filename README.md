@@ -1,52 +1,40 @@
+---
+description: Welcome to the Enjin Documentation!
+---
+
 # Welcome!
 
-{% api-method method="post" host="https://api.cakes.com" path="/v1/cakes/:id" %}
-{% api-method-summary %}
-Get Cakes
-{% endapi-method-summary %}
+### Start Creating & Minting NFTs
 
-{% api-method-description %}
-This endpoint allows you to get free cakes.
-{% endapi-method-description %}
+![](.gitbook/assets/image1.png)
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="id" type="string" %}
-ID of the cake to get, for free of course.
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
+You can start minting NFTs and Digital Assets without writing a single line of code. 
 
-{% api-method-headers %}
-{% api-method-parameter name="Authentication" type="string" required=true %}
-Authentication token to track down who is emptying our stocks.
-{% endapi-method-parameter %}
-{% endapi-method-headers %}
+Start creating your account [here](https://jumpnet.cloud.enjin.io/platform) to get started with minting!
 
-{% api-method-query-parameters %}
-{% api-method-parameter name="recipe" type="string" %}
-The API will do its best to find a cake matching the provided recipe.
-{% endapi-method-parameter %}
+### SDKs & Plugins
 
-{% api-method-parameter name="gluten" type="boolean" %}
-Whether the cake should be gluten-free or not.
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+Learn how to create a functional blockchain integration using the tools you're already experienced with. 
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
+{% page-ref page="sdks/untitled/" %}
 
-{% endapi-method-response-example-description %}
+{% page-ref page="sdks/godot/" %}
 
-```
+### GraphQL API
 
-```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+A robust abstraction that gives you complete control over your assets and NFTs.
 
+Check out GraphQL Playground [here](https://jumpnet.cloud.enjin.io/graphql/playground). 
 
+### Chat on Discord
+
+Join a growing community of Enjin developers. Get help and insights from the team. 
+
+Join Discord [here](https://discord.com/invite/xCbHnEzAWE). 
+
+### Need Help?
+
+Fill out a support ticket to speak to someone who can help you with your integration.
+
+Submit a Ticket [here](https://enjin.io/support/contact). 
 
