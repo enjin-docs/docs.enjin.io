@@ -1,8 +1,8 @@
 # Player Management
 
-## Getting Current Player
+### Getting Current Player
 
-Below we demonstrate how to fetch the current user. This will only work when the TrustedPlatformClient is authenticated with a player access token, as such this query is more relevant on the client-side. If you need to fetch a player on the server you can explicitly define the id or name of the player.
+Below we demonstrate how to fetch the current user. This will only work when the TrustedPlatformClient is authenticated with a player access token, as such this query is more relevant on the client side. If you need to fetch a player on the server you can explicitly define the id or name of the player.
 
 {% tabs %}
 {% tab title="GDScript" %}
@@ -26,7 +26,7 @@ func _get_current_player(udata: Dictionary):
 {% endtab %}
 {% endtabs %}
 
-## Getting Player Identities
+### Getting Player Identities
 
 The example below demonstrates how to include the player identities in the user query:
 
@@ -56,7 +56,7 @@ func _get_player_identities(udata: Dictionary):
 {% endtab %}
 {% endtabs %}
 
-## Linking A Player
+### Linking A Player
 
 While it is possible to explicitly link an Ethereum address to identity in the SDK, we recommend displaying the linking code or linking code QR to the player's so that they can link from within the Enjin Wallet Android or iOS app. Below we demonstrate how to get the linking code and QR URL:
 
@@ -90,9 +90,11 @@ func _get_identity_code_cb(udata: Dictionary):
 {% endtab %}
 {% endtabs %}
 
-## Getting Player Balances
+### Getting Player Balances
 
-There are various ways to get player balances. We highly recommend using the wallet service to explicitly fetch balances for an Ethereum address. By doing so you can limit the scope of data returned in the response compared to other approaches. For demonstration purposes we will show how to include balances when fetching a player as well as how to fetch the wallet for a specific Ethereum address:
+There are various ways to get player balances. We highly recommend using the wallet service to explicitly fetch balances for an Ethereum address. By doing so you can limit the scope of data returned in the response compared to other approaches. 
+
+For demonstration purposes we will show how to include balances when fetching a player as well as how to fetch the wallet for a specific Ethereum address:
 
 {% tabs %}
 {% tab title="GDScript" %}

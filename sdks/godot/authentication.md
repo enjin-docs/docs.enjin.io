@@ -1,8 +1,8 @@
 # Authentication
 
-## Project Authentication
+### Project Authentication
 
-The example below demonstrates how to authenticate a server-client with the project id and secret.
+The example below demonstrates how to authenticate a server client with the project id and secret.
 
 {% tabs %}
 {% tab title="GDScript" %}
@@ -26,9 +26,9 @@ func _auth_app(udata: Dictionary):
 {% endtab %}
 {% endtabs %}
 
-## Player Authentication
+### Player Authentication
 
-Once the server-client has been authenticated, you can get a player access token as seen in the example below. The player access token should then be forwarded to the player client.
+Once the server client has been authenticated, you can get a player access token as seen in the example below. The player access token should then be forwarded to the player client.
 
 {% tabs %}
 {% tab title="GDScript" %}

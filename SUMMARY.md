@@ -52,8 +52,8 @@
 
 ## Resources
 
-* [💻 GraphQL Playground \(JumpNet\)](https://jumpnet.cloud.enjin.io)
-* [📈 Enjin Status](https://www.enjinstatus.com/)
+* [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
+* [🔔 Enjin Status](https://www.enjinstatus.com/)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
 * [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
