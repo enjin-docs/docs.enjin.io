@@ -6,7 +6,9 @@ description: Learn more about setting asset metadata to your NFTs and Digital As
 
 ## Setting Your Asset Metadata
 
-You can set your metadata through the “Assets” section in your project on Enjin’s minting panel by clicking the “Edit” button on the asset you wish to customize.
+You can set your metadata through the “Assets” section in your project on [Enjin’s minting panel](https://cloud.enjin.io/platform) by clicking the `Edit` button on the asset you wish to customize.
+
+There are multiple ways to set asset metadata, and those are outlined here:
 
 ### **Basic Editor**
 
@@ -18,7 +20,9 @@ Your asset URI will then be customized to point towards Enjin’s servers, where
 
 Once a successful request has been made, you will need to accept and sign the transaction in the **REQUESTS** section of your wallet.
 
+{% hint style="warning" %}
 You can also upload .GIF and .MP4 files to your assets.
+{% endhint %}
 
 Requirements when using hosted metadata:
 

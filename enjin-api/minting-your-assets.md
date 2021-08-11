@@ -8,11 +8,13 @@ It's time to mint your first batch of assets. The request for minting Fungible T
 
 The supply of Fungible Tokens is essentially represented by a quantity field within the token data, as opposed to Non-Fungible Tokens whose supply is represented by the quantity of separate token identities.
 
-If you need to mint multiple NFTs in a single transaction, you will need to specify the receiving Ethereum address for each individual item. It is also advisable not to mint over 150 NFTs in a single transaction.
+If you need to mint multiple NFTs in a single transaction, you will need to specify the receiving Ethereum address for each individual item.
+
+> It is also advisable not to mint over 150 NFTs in a single transaction
 
 FTs do not have the same restriction, you can mint unlimited Fungible Tokens to an Ethereum Address. However, it is advisable not to mint any amount of Fungible Tokens into over 100 different Ethereum Addresses in one transaction.
 
-The following query will assist in Minting your Fungible and Non-Fungible Tokens.
+The following query will mint your Fungible and Non-Fungible Tokens:
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -56,7 +58,7 @@ mutation {
 {% endtab %}
 {% endtabs %}
 
-Note, it will be very rare to encounter any stuck transaction on JumpNet. If you do, however, try running the above mutation to cancel your stuck transaction. 
+Note, it will be very rare that you encounter any stuck transaction on JumpNet. If you do, however, try running the above mutation to cancel your stuck transaction. 
 
 ### Minting via Platform
 
@@ -68,7 +70,7 @@ You can also mint via the Enjin Platform on Mainnet or on JumpNet. Minting via t
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-> Note, minting via the Enjin Platform does have some limitations, such as you can only mint to 1 single address, rather than minting to multiple, unique addresses.
+> Note, minting via the Enjin Platform does have some limitations, such as you can only mint to 1 single address, rather than minting to multiple unique addresses.
 
 
 

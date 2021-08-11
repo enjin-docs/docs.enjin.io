@@ -26,7 +26,9 @@
   * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
   * [Invalidating Your Metadata](enjin-api/metadata-guide/invalidating-your-metadata.md)
 * [Minting Your Assets](enjin-api/minting-your-assets.md)
-* [Managing Your Assets](enjin-api/managing-your-assets.md)
+* [Managing Your Assets](enjin-api/managing-your-assets/README.md)
+  * [Trade Requests](enjin-api/managing-your-assets/trade-requests.md)
+  * [Dynamically linking Assets with EnjinX](enjin-api/managing-your-assets/dynamically-linking-assets-with-enjinx.md)
 
 ## Wallet Daemon
 
