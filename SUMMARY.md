@@ -39,6 +39,15 @@
 
 ## SDKs
 
+* [Getting Started](sdks/getting-started.md)
+* [Using Platform Clients](sdks/using-platform-clients/README.md)
+  * [Authentication](sdks/using-platform-clients/authentication.md)
+  * [Managing Players](sdks/using-platform-clients/managing-players.md)
+  * [Project & Player Clients](sdks/using-platform-clients/project-and-player-clients.md)
+  * [Managing Assets](sdks/using-platform-clients/managing-assets.md)
+* [Using Event Services](sdks/using-event-services/README.md)
+  * [Setting up a Event Service](sdks/using-event-services/starting-the-service.md)
+  * [Handling Platform Events](sdks/using-event-services/handling-platform-events.md)
 * [Java](sdks/untitled/README.md)
   * [Introduction to Java SDK](sdks/untitled/introduction-to-java-sdk.md)
   * [Authentication](sdks/untitled/authentication.md)
@@ -49,8 +58,6 @@
   * [Authentication](sdks/godot/authentication.md)
   * [Player Management](sdks/godot/player-management.md)
   * [Creating Requests](sdks/godot/creating-requests.md)
-* [C++](sdks/untitled-1.md)
-* [C\#](sdks/c.md)
 
 ## Resources
 
