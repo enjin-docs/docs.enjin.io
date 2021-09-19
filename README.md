@@ -16,10 +16,6 @@ Start creating your account [here](https://jumpnet.cloud.enjin.io/platform) to g
 
 Learn how to create a functional blockchain integration using the tools you're already experienced with. 
 
-{% page-ref page="sdks/untitled/" %}
-
-{% page-ref page="sdks/godot/" %}
-
 ### GraphQL API
 
 A robust abstraction that gives you complete control over your assets and NFTs.
