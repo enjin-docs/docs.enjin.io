@@ -134,13 +134,19 @@ GetPlayer req = new GetPlayer();
 
 {% tab title="C\#" %}
 ```csharp
+using Enjin.SDK.PlayerSchema;
 
+GetPlayer req = new GetPlayer();
 ```
 {% endtab %}
 
 {% tab title="C++" %}
 ```cpp
+#include "enjinsdk/player/GetPlayer.hpp"
 
+using namespace enjin::sdk::player;
+
+GetPlayer req = GetPlayer();
 ```
 {% endtab %}
 {% endtabs %}
