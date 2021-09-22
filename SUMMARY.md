@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Enjin Documentation](README.md)
 
 ## Getting Set Up <a id="core-api"></a>
 

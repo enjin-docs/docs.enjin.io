@@ -2,7 +2,7 @@
 description: Welcome to the Enjin Documentation!
 ---
 
-# Welcome!
+# Enjin Documentation
 
 ### Start Creating & Minting NFTs
 
