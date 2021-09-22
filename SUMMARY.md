@@ -61,13 +61,12 @@
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
 * [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
-* [💬 Contact Support](https://enjin/support/contact)
+* [💬 Contact Support](https://enjin.io/support/contact)
 
 ## Downloads
 
 ---
 
-* [Unity SDK](https://assetstore.unity.com/packages/tools/utilities/blockchain-sdk-by-enjin-124133)
 * [Java SDK](https://github.com/enjin/enjin-java-sdk)
 * [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)

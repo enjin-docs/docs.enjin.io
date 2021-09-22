@@ -94,7 +94,7 @@ AuthProject req = AuthProject()
 
 ### Sending the Authentication Request
 
-To send any request to the platform we must call the method in our client whose name matches the request. The result of these methods in a synchronous operation will be a GraphQL response that wraps the data we want. An example of what this looks like for the `AuthProject` request is shown below:
+To send any request to the platform, we must call the method in our client whose name matches the request. The result of these methods in a synchronous operation will be a GraphQL response that wraps the data we want. An example of what this looks like for the `AuthProject` request is shown below:
 
 {% tabs %}
 {% tab title="Java" %}

@@ -1,3 +1,7 @@
+---
+description: Learn how to get started with the Enjin SDKs
+---
+
 # Getting Started
 
 ## Introduction
@@ -13,6 +17,4 @@ Before getting started with exploring the Enjin SDKs, we will want to [register]
 | Java | [enjin/enjin-java-sdk](https://github.com/enjin/enjin-java-sdk) |
 | C\# | [enjin/Enjin-CSharp-SDK](https://github.com/enjin/Enjin-CSharp-SDK) |
 | C++ | [enjin/Enjin-CPP-SDK](https://github.com/enjin/Enjin-CPP-SDK) |
-
-
 
