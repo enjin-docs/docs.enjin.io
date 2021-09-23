@@ -48,7 +48,6 @@
   * [Setting up a Event Service](sdks/using-event-services/starting-the-service.md)
   * [Handling Cloud Events](sdks/using-event-services/handling-platform-events.md)
 * [Message Logging](sdks/untitled-1.md)
-* [FAQ](sdks/faq.md)
 * [Changelog](sdks/changelog/README.md)
   * [Java SDK](sdks/changelog/java-sdk.md)
   * [C\# SDK](sdks/changelog/c-sdk.md)
@@ -57,11 +56,11 @@
 ## Resources
 
 * [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
-* [🔔 Enjin Status](https://www.enjinstatus.com/)
+* [🔔 Enjin Product Status](https://www.enjinstatus.com/)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
 * [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
-* [💬 Contact Support](https://enjin.io/support/contact)
+* [💬 Contact Support](https://enjin.io/support/)
 
 ## Downloads
 
