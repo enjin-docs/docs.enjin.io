@@ -10,7 +10,9 @@ The supply of Fungible Tokens is essentially represented by a quantity field wit
 
 If you need to mint multiple NFTs in a single transaction, you will need to specify the receiving Ethereum address for each individual item.
 
-> It is also advisable not to mint over 150 NFTs in a single transaction
+{% hint style="warning" %}
+It is not advisable to mint over 150 NFTs in a single transaction
+{% endhint %}
 
 FTs do not have the same restriction, you can mint unlimited Fungible Tokens to an Ethereum Address. However, it is advisable not to mint any amount of Fungible Tokens into over 100 different Ethereum Addresses in one transaction.
 
@@ -70,7 +72,9 @@ You can also mint via the Enjin Platform on Mainnet or on JumpNet. Minting via t
 
 ![](../.gitbook/assets/image%20%283%29.png)
 
-> Note, minting via the Enjin Platform does have some limitations, such as you can only mint to 1 single address, rather than minting to multiple unique addresses.
+{% hint style="info" %}
+Minting via the Enjin Platform does have some limitations, such as you can only mint to 1 single address, rather than minting to multiple unique addresses. 
+{% endhint %}
 
 
 

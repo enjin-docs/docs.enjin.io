@@ -38,7 +38,9 @@ query GetPlayerAccessToken {
 {% endtab %}
 {% endtabs %}
 
-> **IMPORTANT:** Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
+{% hint style="danger" %}
+**IMPORTANT:** Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
+{% endhint %}
 
 ### **Step 3: Use your App Secret**
 

@@ -12,6 +12,10 @@ Here are the instructions to install the Enjin Wallet Daemon application under v
 
 Administrator access to the target computer is required.
 
+{% hint style="warning" %}
+Please be aware that using a wallet daemon will mean that ANY transaction that is generated via your App Secret will be signed automatically. Please ensure there is no way for any unauthorized party to access your App Secret and process unapproved transactions.
+{% endhint %}
+
 ### Windows 10
 
 **Requirements Summary**

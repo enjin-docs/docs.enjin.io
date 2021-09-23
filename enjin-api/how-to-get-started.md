@@ -42,9 +42,11 @@ query GetAppSecret($id: Int!) {
 
 ### Step 3: Getting Your Access Token
 
-> **NOTE: MAKE SURE TO STORE THIS SERVERSIDE!**
-
 Once you have retrieved the app secret from the previous step, you will need the access token, which you can retrieve by following this query:
+
+{% hint style="danger" %}
+**IMPORTANT:** Make sure to store your access token serverside!
+{% endhint %}
 
 ```graphql
 query RetrieveAppAccessToken($appId: Int!, $appSecret: String!) {

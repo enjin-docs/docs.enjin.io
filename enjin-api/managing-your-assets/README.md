@@ -59,7 +59,9 @@ mutation ReleaseReserve($identityId: Int!, $tokenId: String!, $value: Int!) {
 }
 ```
 
-> _**Note:**_ There is a cool-down period for releasing reserve and the more Enjin Coin you have locked into the template, the longer you have to wait until you can release it. This waiting period can take days or even weeks.
+{% hint style="warning" %}
+There is a cool-down period for releasing reserve and the more Enjin Coin you have locked into the template, the longer you have to wait until you can release it. This waiting period can take days or even weeks.
+{% endhint %}
 
 ## Send All Item Types: Advanced Send
 
@@ -209,13 +211,13 @@ mutation ApproveEnj($id: String!, $limit: Int!) {
 
 Set value as -1 for **max** value.
 
-> _**Note:**_ This value decreases as it is used, like a literal spending allowance. If you set the value to 10 Enjin Coin \(ENJ\) and then make 10 transactions for 1 ENJ each, your allowance will go down to 0 and it will need to be set again.
+{% hint style="info" %}
+This value decreases as it is used, like a literal spending allowance. If you set the value to 10 Enjin Coin \(ENJ\) and then make 10 transactions for 1 ENJ each, your allowance will go down to 0 and it will need to be set again.
+{% endhint %}
 
 ## Changing Asset Transfer Status
 
 At times, you may want to change the transfer status of an asset that you've created to give it a certain value, whether you want the asset to be **permanently transferable**, **temporarily transferable**, or **bound** to an address.
-
-> **Note**: If have set the token to be permanently transferable, you will not be able to alter that setting.
 
 The following mutation will allow you to change the asset transferable type:
 
@@ -248,4 +250,8 @@ mutation ChangeAssetTransferableType(
 ```
 {% endtab %}
 {% endtabs %}
+
+{% hint style="danger" %}
+If you set the token to be permanently transferable, you will not be able to alter that setting.
+{% endhint %}
 

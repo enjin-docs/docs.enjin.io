@@ -65,5 +65,7 @@ Many of these steps involve creating blockchain transactions that need to be sig
 
 [Here are the instructions on how to use it.](https://enjin.io/docs/daemon-installation)
 
-> _**IMPORTANT:** Please be aware that using a wallet daemon will mean that ANY transaction that is generated via your App Secret will be signed automatically. Please ensure there is no way for any unauthorized party to access your App Secret and process unapproved transactions._
+{% hint style="danger" %}
+**IMPORTANT:** Please be aware that using a wallet daemon will mean that ANY transaction that is generated via your App Secret will be signed automatically. Please ensure there is no way for any unauthorized party to access your App Secret and process unapproved transactions.
+{% endhint %}
 

@@ -20,7 +20,7 @@ Your asset URI will then be customized to point towards Enjin’s servers, where
 
 Once a successful request has been made, you will need to accept and sign the transaction in the **REQUESTS** section of your wallet.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 You can also upload .GIF and .MP4 files to your assets.
 {% endhint %}
 
