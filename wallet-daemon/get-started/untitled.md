@@ -6,6 +6,8 @@ description: Learn how to install the Wallet Daemon
 
 The wallet daemon allows you to automate the transaction signing process, so all of your blockchain transactions are actioned instantly, creating a persistent bridge between your game and the blockchain, and ensuring your players can enjoy a seamless and fluid gaming experience.
 
+> _**IMPORTANT:** Please be aware that using a wallet daemon will mean that ANY transaction that is generated via your App Secret will be signed automatically. Please ensure there is no way for any unauthorized party to access your App Secret and process unapproved transactions._
+
 ### Wallet Daemon Installation
 
 Here are the instructions to install the Enjin Wallet Daemon application under various OSes. This document necessitates an up-to-date OS and knowledge of the command line and system administration.
