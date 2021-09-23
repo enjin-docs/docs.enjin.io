@@ -6,8 +6,6 @@ description: Welcome to the Enjin Documentation!
 
 ### Start Creating & Minting NFTs
 
-![](.gitbook/assets/image1.png)
-
 You can start minting NFTs and Digital Assets without writing a single line of code. 
 
 Start creating your account [here](https://jumpnet.cloud.enjin.io/platform) to get started with minting!
