@@ -30,5 +30,5 @@ Join Discord [here](https://discord.com/invite/xCbHnEzAWE).
 
 Fill out a support ticket to speak to someone who can help you with your integration.
 
-Submit a Ticket [here](https://enjin.io/support/contact). 
+Submit a Ticket [here](https://enjin.io/support). 
 
