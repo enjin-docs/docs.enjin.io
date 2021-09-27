@@ -1,5 +1,9 @@
 # Managing Players
 
+## Important Notice - Alpha Documentation
+
+The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+
 ## Creating a New Player
 
 The first step in player management is to create a player for our project. By creating a player for our project we will be able to link their Enjin Wallet to the project enabling us to create interactions for melting, sending, and trading assets within our application for users.
