@@ -2,7 +2,7 @@
 description: Learn how to get started with the Enjin SDKs
 ---
 
-# Getting Started
+# Enjin SDKs
 
 {% hint style="info" %}
 ## Alpha Documentation

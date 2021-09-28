@@ -12,7 +12,7 @@ Start creating your account [here](https://jumpnet.cloud.enjin.io/platform) to g
 
 ### SDKs & Plugins
 
-Learn how to create a functional blockchain integration using the tools and languages you're already experienced with. 
+Learn how to create a functional blockchain integration using the tools and languages you're already experienced with [here](sdks/getting-started.md). 
 
 ### GraphQL API
 

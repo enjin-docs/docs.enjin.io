@@ -39,7 +39,7 @@
 
 ## SDKs
 
-* [Getting Started](sdks/getting-started.md)
+* [Enjin SDKs](sdks/getting-started.md)
 * [Using Platform Clients](sdks/using-platform-clients/README.md)
   * [Authentication](sdks/using-platform-clients/authentication.md)
   * [Managing Players](sdks/using-platform-clients/managing-players.md)
