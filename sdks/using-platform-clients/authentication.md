@@ -1,8 +1,10 @@
 # Authentication
 
-## Important Notice - Alpha Documentation
+{% hint style="info" %}
+## Alpha Documentation
 
 The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+{% endhint %}
 
 ## Authenticating a Project Client
 
@@ -61,6 +63,10 @@ std::unique_ptr<ProjectClient> client = ProjectClientBuilder()
 Before creating the `AuthProject` request, we must first gather our project's UUID and secret key. To do so, we may navigate to our project page on the Enjin platform and find these items under `Settings`  -&gt;`API Credentials`.
 
 Once the UUID and secret have been acquired, we can pass them to the `AuthProject` request we have created.
+
+{% hint style="warning" %}
+You should make sure that you're only authenticating as a project in a **secure environment**. The project's secret enables a **large degree of access** over the project and is intended solely to be ran in an environment managed by the developer. It mustn't be exposed to others.
+{% endhint %}
 
 {% tabs %}
 {% tab title="Java" %}
@@ -226,7 +232,7 @@ bool result = client->is_authenticated();
 {% endtab %}
 {% endtabs %}
 
-With our client successful authenticated we can now use it to make further requests to the platform. One point of note though is that our client's authentication with the platform will eventual expire. The time in seconds until the authentication expires can retrieved from the `AccessToken` as shown below:
+With our client successfully authenticated we can now use it to make further requests to the platform. One point of note though is that our client's authentication with the platform will eventual expire. The time in seconds until the authentication expires can retrieved from the `AccessToken` as shown below:
 
 {% tabs %}
 {% tab title="Java" %}
@@ -337,7 +343,7 @@ AccessToken access_token = res.get_result().value();
 {% endtab %}
 {% endtabs %}
 
-#### Authenticating a Existing Player
+#### Authenticating an Existing Player
 
 When using the `AuthPlayer` request, we must specify the ID of the player whom we wish to authenticate for as shown below:
 

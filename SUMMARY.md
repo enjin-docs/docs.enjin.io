@@ -48,10 +48,6 @@
   * [Setting up a Event Service](sdks/using-event-services/starting-the-service.md)
   * [Handling Cloud Events](sdks/using-event-services/handling-platform-events.md)
 * [Message Logging](sdks/untitled-1.md)
-* [Changelog](sdks/changelog/README.md)
-  * [Java SDK](sdks/changelog/java-sdk.md)
-  * [C\# SDK](sdks/changelog/c-sdk.md)
-  * [C++ SDK](sdks/changelog/c++-sdk.md)
 
 ## Resources
 
