@@ -67,6 +67,8 @@
 ---
 
 * [Java SDK](https://github.com/enjin/enjin-java-sdk)
+* [C\# SDK](https://github.com/enjin/enjin-csharp-sdk)
+* [C++ SDK](https://github.com/enjin/enjin-cpp-sdk)
 * [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
 
