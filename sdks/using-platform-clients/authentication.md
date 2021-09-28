@@ -64,7 +64,7 @@ Before creating the `AuthProject` request, we must first gather our project's UU
 
 Once the UUID and secret have been acquired, we can pass them to the `AuthProject` request we have created.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 You should make sure that you're only authenticating as a project in a **secure environment**. The project's secret enables a **large degree of access** over the project and is intended solely to be ran in an environment managed by the developer. It mustn't be exposed to others.
 {% endhint %}
 
