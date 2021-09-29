@@ -232,7 +232,7 @@ bool result = client->is_authenticated();
 {% endtab %}
 {% endtabs %}
 
-With our client successfully authenticated we can now use it to make further requests to the platform. One point of note though is that our client's authentication with the platform will eventual expire. The time in seconds until the authentication expires can retrieved from the `AccessToken` as shown below:
+With our client successfully authenticated we can now use it to make further requests to the platform. One point of note though is that our client's authentication with the platform will eventually expire. The time in seconds until the authentication expires can retrieved from the `AccessToken` as shown below:
 
 {% tabs %}
 {% tab title="Java" %}
