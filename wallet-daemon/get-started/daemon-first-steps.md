@@ -25,7 +25,7 @@ Copy the file from example-config.json to config.json and then open it in a text
 
 "`salt": "193e9997-5a10-4d9e-a829-69ddcf6cbf70`" - This paramater is used when encrypting/decrypting your daemon password. For improved security, you can set the salt to anything else \(such as a different UUID4 string\).
 
-`"chain"`: `"kovan"`, `"mainnet"` , `"jumpnent"`- This parameter defines which network you are going to be running your wallet daemon on.
+`"chain"`: `"kovan"`, `"mainnet"` , `"jumpnet"`- This parameter defines which network you are going to be running your wallet daemon on.
 
 `"minGasPrice"` and `"maxGasPrice"` - Both parameters refer to ETH gas prices and can be used to constrain the minimum and maximum amount of gas to be used when signing a transaction.
 
