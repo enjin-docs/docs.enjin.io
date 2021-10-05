@@ -22,13 +22,14 @@
   * [Viewing a Player's NFTs](enjin-api/managing-your-users/viewing-a-users-nfts.md)
   * [Additional Requests](enjin-api/managing-your-users/player-requests.md)
 * [Sending & Receiving](enjin-api/sending-and-receiving-requests.md)
-* [Metadata Guide](enjin-api/metadata-guide/README.md)
-  * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
-  * [Invalidating Your Metadata](enjin-api/metadata-guide/invalidating-your-metadata.md)
-* [Minting Your Assets](enjin-api/minting-your-assets.md)
+* [Minting Your Assets](enjin-api/minting-your-assets/README.md)
+  * [Asset properties](enjin-api/minting-your-assets/asset-properties.md)
 * [Managing Your Assets](enjin-api/managing-your-assets/README.md)
   * [Trade Requests](enjin-api/managing-your-assets/trade-requests.md)
   * [Dynamically linking Assets with EnjinX](enjin-api/managing-your-assets/dynamically-linking-assets-with-enjinx.md)
+* [Metadata Guide](enjin-api/metadata-guide/README.md)
+  * [Creating a Custom JSON File](enjin-api/metadata-guide/creating-a-custom-json-file.md)
+  * [Invalidating Your Metadata](enjin-api/metadata-guide/invalidating-your-metadata.md)
 
 ## Wallet Daemon
 
