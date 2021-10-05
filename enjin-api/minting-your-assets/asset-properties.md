@@ -111,8 +111,6 @@ See [this guide](../metadata-guide/) for more details if you are unfamiliar with
 
 The following mutation will set Item URI on your asset:
 
-{% tabs %}
-{% tab title="V1" %}
 ```graphql
 mutation SetItemUri($identityId: Int!, $itemUriData: SetItemUriInput!) {
  CreateEnjinRequest(identity_id: $identityId, type: SET_ITEM_URI, set_item_uri_data: $itemUriData) {
@@ -122,10 +120,8 @@ mutation SetItemUri($identityId: Int!, $itemUriData: SetItemUriInput!) {
  }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
-Advanced Users: The URI value allows for ID substitution by clients. If the string {id} exists in any URI, clients must replace this with the actual token ID in hexadecimal form. This allows for large number of tokens to use the same on-chain string by defining a URI once, for a large collection of tokens.
+**Advanced Users:** The URI value allows for ID substitution by clients. If the string {id} exists in any URI, clients must replace this with the actual token ID in hexadecimal form. This allows for large number of tokens to use the same on-chain string by defining a URI once, for a large collection of tokens.
 
 Example of such a URI: `https://token-cdn-domain/{id}.json would be replaced with https://token-cdn-domain/780000000000001e000000000000000000000000000000000000000000000000.json`if the client is referring to token ID `780000000000001e000000000000000000000000000000000000000000000000.`
 
