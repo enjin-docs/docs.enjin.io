@@ -8,11 +8,13 @@ description: >-
 
 As you start, it's **very important** that all of your admin and user data is parsed and stored by a secure server.
 
-This means ****you will need a solid understanding of our Cloud API \(GraphQL\) to complete your secure integration. 
+This means** **you will need a solid understanding of our Cloud API (GraphQL) to complete your secure integration. 
 
 If you haven't, we recommend going through the section "What is GraphQL?" and taking a look at our directory of all the available GraphQL queries and mutations to use:
 
-{% page-ref page="../core-api/using-graphql/graphql-visual-interface.md" %}
+{% content-ref url="../core-api/using-graphql/graphql-visual-interface.md" %}
+[graphql-visual-interface.md](../core-api/using-graphql/graphql-visual-interface.md)
+{% endcontent-ref %}
 
 ### Step 1: Getting Your Bearer Token
 
@@ -56,6 +58,4 @@ query RetrieveAppAccessToken($appId: Int!, $appSecret: String!) {
  }
 }
 ```
-
-
 

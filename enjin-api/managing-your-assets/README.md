@@ -30,7 +30,7 @@ mutation UpdateTokenName($identityId: Int!, $itemNameData: UpdateItemNameInput!)
 
 There may be times that you make a mistake during the asset minting process and you wish to melt all of the assets you have created.
 
-To melt any asset, the asset must be in your wallet. It's important to **quadruple-check** your token settings prior to sending them to your users.
+To melt any asset, the asset must be in your wallet. It's important to **quadruple-check **your token settings prior to sending them to your users.
 
 Once your assets have been distributed to your users, there is no going back and the only way to fix any errors is to generate replacement tokens.
 
@@ -45,7 +45,7 @@ mutation BatchMelt($identityId: Int!, $meltTokenData: MeltTokenInput!) {
 
 ## Release Reserve
 
-When you first create an asset, you will be asked to lock an initial reserve on the Enjin Coin \(ENJ\) into it.
+When you first create an asset, you will be asked to lock an initial reserve on the Enjin Coin (ENJ) into it.
 
 This is to ensure you can mint your tokens fluidly, using the Enjin Coin you have set aside.
 
@@ -93,16 +93,16 @@ mutation WhitelistToken($identityId: Int!, $appId: Int!, $whitelistData: SetWhit
 
 ### Whitelist Settings
 
-**Full Rights:** The address has full rights to send and receive the token.  
+**Full Rights:** The address has full rights to send and receive the token.\
 `0x0000000000000000000000000000000000000001`
 
-**Can Send:** The address can send but not receive the token. Which means that the only way they can get the token, is if you mint it directly to their address.  
+**Can Send:** The address can send but not receive the token. Which means that the only way they can get the token, is if you mint it directly to their address.\
 `0x0000000000000000000000000000000000000002`
 
-**Can Receive:** The address can receive but can't send the token.  
+**Can Receive:** The address can receive but can't send the token.\
 `0x0000000000000000000000000000000000000003`
 
-**No Fees:** The address can send tokens without paying transfer fees.  
+**No Fees:** The address can send tokens without paying transfer fees.\
 `0x0000000000000000000000000000000000000004`
 
 ## Asset Details, Holders & Transaction Data
@@ -179,17 +179,17 @@ query GetTransaction($id: Int!) {
 
 The Enjin Transactions query will return various pieces of information, depending on the state of the transaction that you have run.
 
-  
+\
 You will notice that we added the `error` argument within the query. The `error` argument is useful to have, in case your transaction has failed/dropped for a certain reason. This will display why the transaction did not process on the network.
 
 This query will return the following values:
 
 * **PENDING:** Transaction is created on the Enjiin Cloud, but has not yet been signed by the user/dev.
-* **TP\_PROCESSING:** Transaction has been signed and is waiting for the Enjin Cloud/Platform\) to process the transaction for broadcast.
+* **TP_PROCESSING:** Transaction has been signed and is waiting for the Enjin Cloud/Platform) to process the transaction for broadcast.
 * **BROADCAST:** Transaction has been signed and has been broadcast but has not yet been confirmed on the blockchain.
 * **EXECUTED:** The transaction has received confirmation on the blockchain and the Enjin Cloud.
-* **CANCELED\_USER:** The user has cancelled the PENDING transaction/not signed.
-* **CANCELED\_PLATFORM:** The Platform has cancelled the PENDING transaction.
+* **CANCELED_USER:** The user has cancelled the PENDING transaction/not signed.
+* **CANCELED_PLATFORM:** The Platform has cancelled the PENDING transaction.
 * **FAILED:** Transaction has failed on the Enjiin Platform.
 * **DROPPED:** Transaction was not mined on the blockchain and has since been dropped.
 
@@ -209,10 +209,10 @@ mutation ApproveEnj($id: String!, $limit: Int!) {
 }
 ```
 
-Set value as -1 for **max** value.
+Set value as -1 for **max **value.
 
 {% hint style="info" %}
-This value decreases as it is used, like a literal spending allowance. If you set the value to 10 Enjin Coin \(ENJ\) and then make 10 transactions for 1 ENJ each, your allowance will go down to 0 and it will need to be set again.
+This value decreases as it is used, like a literal spending allowance. If you set the value to 10 Enjin Coin (ENJ) and then make 10 transactions for 1 ENJ each, your allowance will go down to 0 and it will need to be set again.
 {% endhint %}
 
 ## Changing Asset Transfer Status
@@ -254,4 +254,3 @@ mutation ChangeAssetTransferableType(
 {% hint style="danger" %}
 If you set the token to be permanently transferable, you will not be able to alter that setting.
 {% endhint %}
-

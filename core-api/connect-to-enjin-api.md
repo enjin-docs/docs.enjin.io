@@ -10,14 +10,14 @@ This will allow you to programmatically view wallet inventory, mint assets from 
 
 ### **Step 1: Find your App ID & AppSecret**
 
-Firstly, you will need to locate your **AppID** and **AppSecret** on the Enjin platform.
+Firstly, you will need to locate your **AppID **and **AppSecret** on the Enjin platform.
 
-1. Go to cloud.enjin.io \(if using Mainnet\), or jumpnet.cloud.enjin.io \(if using JumpNet\).
+1. Go to cloud.enjin.io (if using Mainnet), or jumpnet.cloud.enjin.io (if using JumpNet).
 2. Create or select your **Project.**
    1. More information [here](https://enjin.io/help/creating-your-first-project), on how to create your project.
-3. Select **Settings** in the sidebar.
+3. Select **Settings **in the sidebar.
 
-You will find your **AppID** and **AppSecret** in the **Settings** panel.
+You will find your **AppID **and **AppSecret **in the **Settings **panel.
 
 ### **Step 2: Generate your Authorization Token**
 
@@ -39,7 +39,7 @@ query GetPlayerAccessToken {
 {% endtabs %}
 
 {% hint style="danger" %}
-**IMPORTANT:** Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
+**IMPORTANT: **Only store your App Secret server side. Do not store your App Secret inside your executable file or hackers will be able to decompile your game and mint tokens on your behalf.
 {% endhint %}
 
 ### **Step 3: Use your App Secret**
@@ -48,4 +48,3 @@ You can now use your AppSecret to run queries from your server by querying the E
 
 1. **Mainnet:** cloud.enjin.io/graphql/playground
 2. **JumpNet:** jumpnet.cloud.enjin.io/graphqlplayground
-

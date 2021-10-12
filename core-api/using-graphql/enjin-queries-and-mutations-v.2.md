@@ -2,7 +2,7 @@
 description: A list of all Enjin Queries and Mutations for our latest v.2 schemas
 ---
 
-# Enjin Queries & Mutations \(V.2\)
+# Enjin Queries & Mutations (V.2)
 
 ### Enjin Queries
 
@@ -17,7 +17,7 @@ Here is a list of the Enjin object types you can query through the API:
 * **GetGasPrice:** Use this query to retrieve the latest gas prices.
 * **GetWallet**: Use this query to retrieve information from a specific wallet.
 * **GetWallets:** Use this query to retrieve information from multiple wallets.
-* **GetPlatform:** Use this query to get information about the Platform.
+* **GetPlatform: **Use this query to get information about the Platform.
 * **GetPlayer:** Use this query to get information about your player on the Enjin platform.
 * **GetPlayers:** Use this to query multiple players to retrieve information about them.
 * **GetProject:** Use this query to get information about an app on the Enjin platform.
@@ -33,8 +33,8 @@ There are different types of Enjin object types that can be mutated through the 
 Here is a list of the Enjin object types that can be mutated:
 
 * **AdvancedSendAsset:** Use this mutation to send one or more assets in a single transfer.
-* **ApproveENJ:** Use this mutation to approve how much ENJ to spend.
-* **CancelTransaction:** Use this mutation to cancel your transactions.
+* **ApproveENJ: **Use this mutation to approve how much ENJ to spend.
+* **CancelTransaction: **Use this mutation to cancel your transactions.
 * **CompleteTrade:** Use this mutation to complete a trade between two wallets.
 * **CreatePlayer:** Use this mutation to create your player in your integration.
 * **CreateAsset:** Use this mutation to create your asset or NFT on your project.
@@ -66,9 +66,9 @@ To find it, go to the [**GraphiQL visual interface**](https://jumpnet.cloud.enji
 
 You may notice in our documentation, we provide examples of our queries and mutations that you can use and they will often contain variables within them. You can query these variables by simply passing through the data in the `Query Variables` section at the bottom of the page.
 
-Simply slide up the bottom bar \(Query Variables\) and begin inputting the variables and their respective data.
+Simply slide up the bottom bar (Query Variables) and begin inputting the variables and their respective data.
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 ### Browsing the Schema
 
@@ -76,5 +76,4 @@ On the right side, there is the documentation panel to expand and browse for all
 
 ### Making a Request
 
-On the \(top\) left panel, you would enter in your request to be made to the Enjin Cloud. Press the `Play`button at the top to submit your request, and you will receive a response on the right panel. At times, a notification will appear in your wallet to sign a transaction depending on the request made.
-
+On the (top) left panel, you would enter in your request to be made to the Enjin Cloud. Press the `Play`button at the top to submit your request, and you will receive a response on the right panel. At times, a notification will appear in your wallet to sign a transaction depending on the request made.

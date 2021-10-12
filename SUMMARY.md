@@ -2,12 +2,12 @@
 
 * [Enjin Documentation](README.md)
 
-## Getting Set Up <a id="core-api"></a>
+## Getting Set Up <a href="core-api" id="core-api"></a>
 
 * [What is GraphQL?](core-api/using-graphql/README.md)
   * [GraphQL: Visual Interface](core-api/using-graphql/graphql-visual-interface.md)
-  * [Enjin Queries & Mutations \(V.1\)](core-api/using-graphql/enjin-queries-and-mutations.md)
-  * [Enjin Queries & Mutations \(V.2\)](core-api/using-graphql/enjin-queries-and-mutations-v.2.md)
+  * [Enjin Queries & Mutations (V.1)](core-api/using-graphql/enjin-queries-and-mutations.md)
+  * [Enjin Queries & Mutations (V.2)](core-api/using-graphql/enjin-queries-and-mutations-v.2.md)
 * [Project & Player Requests](core-api/project-and-player-requests/README.md)
   * [Project](core-api/project-and-player-requests/project-requests.md)
   * [Player](core-api/project-and-player-requests/player-requests.md)
@@ -34,7 +34,7 @@
 ## Wallet Daemon
 
 * [Get Started](wallet-daemon/get-started/README.md)
-  * [Daemon Installation](wallet-daemon/get-started/untitled.md)
+  * [Daemon Installation](wallet-daemon/get-started/daemon-installation.md)
   * [Daemon First Steps](wallet-daemon/get-started/daemon-first-steps.md)
   * [Daemon Usage](wallet-daemon/get-started/daemon-usage.md)
 
@@ -53,20 +53,19 @@
 ## Resources
 
 * [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
-* [🔔 Enjin Product Status](https://www.enjinstatus.com/)
+* [🔔 Enjin Product Status](https://www.enjinstatus.com)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
-* [💲 Product Security](https://hackerone.com/enjin?type=team&view_policy=true)
+* [💲 Product Security](https://hackerone.com/enjin?type=team\&view_policy=true)
 * [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
 * [💬 Contact Support](https://enjin.io/support/)
 
 ## Downloads
 
----
+***
 
 * [Java SDK](https://github.com/enjin/enjin-java-sdk)
-* [C\# SDK](https://github.com/enjin/enjin-csharp-sdk)
+* [C# SDK](https://github.com/enjin/enjin-csharp-sdk)
 * [C++ SDK](https://github.com/enjin/enjin-cpp-sdk)
 * [Godot SDK](https://godotengine.org/asset-library/asset/607)
 * [Wallet Daemon](https://cdn.enjin.io/downloads/enjin-wallet-daemon/latest)
-* [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?__cf_chl_jschl_tk__=pmd_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
-
+* [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?\__cf_chl_jschl_tk\_\_=pmd\_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)

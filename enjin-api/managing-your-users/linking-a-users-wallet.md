@@ -28,7 +28,6 @@ mutation addUser {
 
 {% tab title="GraphQL V2" %}
 ```
-
 ```
 {% endtab %}
 {% endtabs %}
@@ -39,7 +38,7 @@ _We recommend setting the username from your app as a static identifier from you
 
 ### **Step 2**
 
-The **addUser** query will return a linking code that you can display to the user. The user will scan the linking code with the Enjin Wallet and link their wallet to your platform.
+The **addUser **query will return a linking code that you can display to the user. The user will scan the linking code with the Enjin Wallet and link their wallet to your platform.
 
 Once the user is linked, you can run the following query to check their linking code or the details of their linked wallet.
 
@@ -63,7 +62,6 @@ query getUser {
 
 {% tab title="GraphQL V2" %}
 ```
-
 ```
 {% endtab %}
 {% endtabs %}
@@ -71,4 +69,3 @@ query getUser {
 ### **Step 3**
 
 Save the user’s Ethereum address, so you can query their wallet anytime you need to.
-
