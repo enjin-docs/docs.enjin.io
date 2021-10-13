@@ -56,7 +56,6 @@
 * [🔔 Enjin Product Status](https://www.enjinstatus.com)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team\&view_policy=true)
-* [📢 Discord Community](https://discord.com/invite/xCbHnEzAWE)
 * [💬 Contact Support](https://enjin.io/support/)
 
 ## Downloads
