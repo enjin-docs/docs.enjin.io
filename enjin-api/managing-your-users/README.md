@@ -25,7 +25,7 @@ mutation {
 
 Once you have created an Enjin account, it's advisable to enter the reference into your database, so you don't repeat this process unnecessarily in the future.
 
-### Step 2: Loggin Your Player In
+### Step 2: Logging Your Player In
 
 In this final step of integration, once you are have confirmed that your player has an existing account, you can log your player in by following this query:
 
@@ -57,7 +57,5 @@ To check if your player has linked their Enjin Wallet, you can run the following
 }
 ```
 
-If the API request returns a valid linking code and/or linking QR link, then your player hasn't linked their wallet. If there's no linking code \(i.e. displaying `null`\), this means the wallet is linked and you can send your player into your game.
-
-
+If the API request returns a valid linking code and/or linking QR link, then your player hasn't linked their wallet. If there's no linking code (i.e. displaying `null`), this means the wallet is linked and you can send your player into your game.
 

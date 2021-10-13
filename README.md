@@ -20,11 +20,6 @@ A robust abstraction that gives you complete control over your assets and NFTs.
 
 Check out the GraphQL Playground [here](https://jumpnet.cloud.enjin.io/graphql/playground). 
 
-### Chat on Discord
-
-Join a [growing community](https://discord.com/invite/xCbHnEzAWE) of developers building with Enjin.
-
 ### Need Help?
 
 [Submit a support ticket](https://enjin.io/support) to speak to a member of our team who can help you with your integration.
-
