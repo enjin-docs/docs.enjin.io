@@ -555,6 +555,30 @@ mutation {
 {% endtab %}
 {% endtabs %}
 
+### MintAsset #2
+
+Mint 1x asset to various addresses.
+
+{% tabs %}
+{% tab title="GraphQL" %}
+```graphql
+mutation mintAssets {
+  MintAsset(
+    wallet: "0x0"
+    assetId: "70c0000000000e22"
+    mints: [
+      { to: "0x787b5DAcbc42171eD6c1b107B85d4C8D94380a3e", value: 1 }
+      { to: "0x22523b285Bf97a099F5C874f920D7c3229Bab963", value: 1 }
+      { to: "0xc4Ef6992136FFE977e42133321f8a4aFB178b5be", value: 1 }
+    ]
+  ) {
+    id
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
 ### ReleaseReserve
 
 {% tabs %}
@@ -815,10 +839,4 @@ mutation project {
 ```
 {% endtab %}
 {% endtabs %}
-
-### UpdateName
-
-```text
-
-```
 

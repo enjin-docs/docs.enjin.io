@@ -12,15 +12,15 @@
   * [Project](core-api/project-and-player-requests/project-requests.md)
   * [Player](core-api/project-and-player-requests/player-requests.md)
 * [Connect to Enjin API](core-api/connect-to-enjin-api.md)
-* [Creating your Player](core-api/link-your-wallet.md)
+* [Creating your Player](core-api/creating-your-player.md)
 
 ## Enjin API
 
-* [Getting Started](enjin-api/how-to-get-started.md)
-* [Managing Your Players](enjin-api/managing-your-users/README.md)
-  * [Linking a Player's Wallet](enjin-api/managing-your-users/linking-a-users-wallet.md)
-  * [Viewing a Player's NFTs](enjin-api/managing-your-users/viewing-a-users-nfts.md)
-  * [Additional Requests](enjin-api/managing-your-users/player-requests.md)
+* [Getting Started](enjin-api/get-started.md)
+* [Managing Your Players](enjin-api/managing-your-players/README.md)
+  * [Linking a Player's Wallet](enjin-api/managing-your-players/linking-a-users-wallet.md)
+  * [Viewing a Player's NFTs](enjin-api/managing-your-players/viewing-a-users-nfts.md)
+  * [Additional Requests](enjin-api/managing-your-players/player-requests.md)
 * [Sending & Receiving](enjin-api/sending-and-receiving-requests.md)
 * [Minting Your Assets](enjin-api/minting-your-assets/README.md)
   * [Asset properties](enjin-api/minting-your-assets/asset-properties.md)
@@ -55,16 +55,13 @@
 * [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
 * [🔔 Enjin Product Status](https://www.enjinstatus.com)
 * [💡 Submit Your Feedback](https://feedback.enjin.io)
-* [💲 Product Security](https://hackerone.com/enjin?type=team\&view_policy=true)
+* [💲 Product Security](https://hackerone.com/enjin?type=team\&view\_policy=true)
 * [💬 Contact Support](https://enjin.io/support/)
 
 ## Downloads
 
-***
-
-* [Java SDK](https://github.com/enjin/enjin-java-sdk)
 * [C# SDK](https://github.com/enjin/enjin-csharp-sdk)
 * [C++ SDK](https://github.com/enjin/enjin-cpp-sdk)
-* [Godot SDK](https://godotengine.org/asset-library/asset/607)
+* [Java SDK](https://github.com/enjin/enjin-java-sdk)
 * [Wallet Daemon](https://cdn.enjin.io/downloads/enjin-wallet-daemon/latest)
-* [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?\__cf_chl_jschl_tk\_\_=pmd\_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)
+* [EnjinCraft Plugin](https://www.spigotmc.org/resources/enjincraft.79408/?\_\_cf\_chl\_jschl\_tk\_\_=pmd\_71b15de53026fffe60fb2b3bafde823cd5f0f188-1627046186-0-gqNtZGzNAfijcnBszQk6)

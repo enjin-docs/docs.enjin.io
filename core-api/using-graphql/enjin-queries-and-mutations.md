@@ -2,7 +2,7 @@
 description: A list of all Enjin Queries and Mutations for V.1 Schemas
 ---
 
-# Enjin Queries & Mutations \(V.1\)
+# Enjin Queries & Mutations (V.1)
 
 Querying is the way to ask for data, it’s similar to the GET action in REST-based APIs.
 
@@ -22,7 +22,7 @@ Here is a list of the Enjin object types you can query through the API:
 * **EnjinUsers:** Use this to query user data on the Enjin Platform.
 * **EnjinWallet:** Use this query to get wallet data.
 
-Mutating in GraphQL is the way to modify data, it is the term used to include all non-API functions other than GET. This includes functions such as PUT, POST, and DELETE that you may be familiar with from REST-based APIs.
+Mutating in GraphQL is the way to modify data, it is the term used to include all non-API functions other than GET. This includes functions such as `PUT`, `POST`, and `DELETE` that you may be familiar with from REST-based APIs.
 
 Unlike querying, mutating requires adding all the arguments to the mutation. After it runs, you can query the values of the object after the mutation took place.
 
@@ -52,15 +52,14 @@ To find it, go to the [**GraphiQL visual interface**](https://cloud.enjin.io/gra
 
 You may notice in our documentation, we provide examples of our queries and mutations that you can use and they will often contain variables within them. You can query these variables by simply passing through the data in the "Query Variables" section at the bottom of the page.
 
-Simply slide up the bottom-bar \(Query Variables\) and begin inputting the variables and their respective data.
+Simply slide up the bottom-bar (Query Variables) and begin inputting the variables and their respective data.
 
-![Enjin Linking Platform](https://assets-global.website-files.com/5d56cb37dc00727a4f69850c/5ffb6dae0d861daea4ea4c02_querying_using_variables.png)
+![Enjin Linking Platform](https://assets-global.website-files.com/5d56cb37dc00727a4f69850c/5ffb6dae0d861daea4ea4c02\_querying\_using\_variables.png)
 
 ### Browsing the Schema
 
-On the right side, there should be a documentation panel to expand and browse for all the requests and parameters you can use. See [here](https://graphql.org/learn/queries/) for documentation on Queries and Mutations. Queries are requests for information from the server, where Mutations are requests that modify server-side data.
+On the right side, there should be a documentation panel to expand and browse for all the requests and parameters you can use. See [here](https://graphql.org/learn/queries/) for documentation on Queries and Mutations.&#x20;
 
 ### Making a Request
 
-On the \(top\) left panel, you would enter in your request to be made to the Enjin Cloud. Press the “Play” button at the top to submit that request, and you will receive a response on the right panel, sometimes a notification will appear in your dev wallet to sign a transaction depending on the request made.
-
+On the (top) left panel, you would enter in your request to be made to the Enjin Cloud. Press the “Play” button at the top to submit that request, and you will receive a response on the right panel, sometimes a notification will appear in your dev wallet to sign a transaction depending on the request made.

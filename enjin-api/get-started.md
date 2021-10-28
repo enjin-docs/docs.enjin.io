@@ -8,9 +8,9 @@ description: >-
 
 As you start, it's **very important** that all of your admin and user data is parsed and stored by a secure server.
 
-This means** **you will need a solid understanding of our Cloud API (GraphQL) to complete your secure integration. 
+This means** **you will need a solid understanding of our Cloud API (GraphQL) to complete your secure integration.&#x20;
 
-If you haven't, we recommend going through the section "What is GraphQL?" and taking a look at our directory of all the available GraphQL queries and mutations to use:
+If you haven't, we recommend going through the section "[What is GraphQL?](../core-api/using-graphql/)" and taking a look at our directory of all the available GraphQL queries and mutations to use:
 
 {% content-ref url="../core-api/using-graphql/graphql-visual-interface.md" %}
 [graphql-visual-interface.md](../core-api/using-graphql/graphql-visual-interface.md)

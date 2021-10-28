@@ -25,11 +25,6 @@ mutation addUser {
  }
 ```
 {% endtab %}
-
-{% tab title="GraphQL V2" %}
-```
-```
-{% endtab %}
 {% endtabs %}
 
 {% hint style="info" %}
@@ -57,11 +52,6 @@ query getUser {
     }
   }
 }
-```
-{% endtab %}
-
-{% tab title="GraphQL V2" %}
-```
 ```
 {% endtab %}
 {% endtabs %}
