@@ -1,24 +1,25 @@
 ---
 description: Welcome to the Enjin Documentation!
+coverY: -72.27340267459124
 ---
 
 # Enjin Documentation
 
 ### Start Creating & Minting NFTs
 
-You can start minting NFTs and Digital Assets without writing a single line of code. 
+You can start minting NFTs and Digital Assets without writing a single line of code.&#x20;
 
 Start creating your account [here](https://jumpnet.cloud.enjin.io/platform) to get started with minting!
 
 ### SDKs & Plugins
 
-Learn how to create a functional blockchain integration using the tools and languages you're already experienced with [here](sdks/getting-started.md). 
+Learn how to create a functional blockchain integration using the tools and languages you're already experienced with [here](sdks/getting-started.md).&#x20;
 
 ### GraphQL API
 
 A robust abstraction that gives you complete control over your assets and NFTs.
 
-Check out the GraphQL Playground [here](https://jumpnet.cloud.enjin.io/graphql/playground). 
+Check out the GraphQL Playground [here](https://jumpnet.cloud.enjin.io/graphql/playground).&#x20;
 
 ### Need Help?
 
