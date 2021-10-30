@@ -1,6 +1,5 @@
 ---
 description: Welcome to the Enjin Documentation!
-coverY: -72.27340267459124
 ---
 
 # Enjin Documentation
