@@ -22,7 +22,7 @@
   * [Viewing a Player's NFTs](enjin-api/managing-your-players/viewing-a-users-nfts.md)
   * [Additional Requests](enjin-api/managing-your-players/player-requests.md)
 * [Sending & Receiving](enjin-api/sending-and-receiving-requests/README.md)
-  * [JumpNet Bridges](enjin-api/sending-and-receiving-requests/jumpnet-bridges.md)
+  * [Enjin Bridge](enjin-api/sending-and-receiving-requests/enjin-bridge.md)
 * [Minting Your Assets](enjin-api/minting-your-assets/README.md)
   * [Asset properties](enjin-api/minting-your-assets/asset-properties.md)
 * [Managing Your Assets](enjin-api/managing-your-assets/README.md)

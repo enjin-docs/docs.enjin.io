@@ -1,14 +1,14 @@
 ---
-description: Learn more about bridging your ENJ & ERC-1155 assets using the JumpNet Bridge.
+description: Learn more about bridging your ENJ & ERC-1155 assets using the Enjin Bridge.
 ---
 
-# JumpNet Bridges
+# Enjin Bridge
 
-JumpNet bridges allows you to transfer tokens between Ethereum Mainnet and Enjin JumpNet.
+The Enjin Bridge allows you to transfer tokens between Ethereum Mainnet and Enjin JumpNet.
 
-Using the Bridge, both Enjin Coin (ENJ) and ERC-1155 assets created using the Enjin Platform can be moved back and forth between JumpNet and Ethereum.
+Using the Bridge, both Enjin Coin (ENJ) and ERC-1155 assets created using the Enjin Platform can be transferred between the Enjin JumpNet and Ethereum Mainnet networks.
 
-The Enjin Bridge receives an asset on one network; once claimed, it replicates the asset on the corresponding network.
+The Enjin Bridge smart contract receives an asset on one network, and once claimed, replicates the asset on the corresponding bridged network.
 
 {% hint style="info" %}
 Currently, the asset bridging functionality is only accessible through the Enjin Platform API. The user interface component, accessible within the Enjin Wallet, will be released at a later stage.
@@ -18,11 +18,11 @@ Currently, the asset bridging functionality is only accessible through the Enjin
 
 The Enjin Bridge has 3 mutations:
 
-| Mutation                                                  | Usage                                         |
-| --------------------------------------------------------- | --------------------------------------------- |
-| [BridgeAsset](jumpnet-bridges.md#bridgeasset)             | Used to transfer a single asset.              |
-| [BridgeAssets](jumpnet-bridges.md#bridgeassets)           | Used to transfer multiple assets.             |
-| [BridgeClaimAssets](jumpnet-bridges.md#bridgeclaimassets) | Used to claim assets on the opposite network. |
+| Mutation                                               | Usage                                         |
+| ------------------------------------------------------ | --------------------------------------------- |
+| [BridgeAsset](enjin-bridge.md#bridgeasset)             | Used to transfer a single asset.              |
+| [BridgeAssets](enjin-bridge.md#bridgeassets)           | Used to transfer multiple assets.             |
+| [BridgeClaimAssets](enjin-bridge.md#bridgeclaimassets) | Used to claim assets on the opposite network. |
 
 ### BridgeAsset
 
