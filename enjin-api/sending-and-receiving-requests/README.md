@@ -8,7 +8,7 @@ You may want to send assets to your players, request for them to send you assets
 
 This can all be achieved by using one simple query.
 
-The Enjin API provides a query that allows you to send unlimited Fungible (FT) and up to 100 Non-Fungible assets (NFT) to up to 150 users, with one single transaction. 
+The Enjin API provides a query that allows you to send unlimited Fungible (FT) and up to 100 Non-Fungible assets (NFT) to up to 150 users, with one single transaction.&#x20;
 
 ### Step 1: Advanced Send
 
@@ -63,7 +63,7 @@ query {
 
 Many of these steps involve creating blockchain transactions that need to be signed via your Enjin Wallet.** **We have created a Wallet Daemon that can sign these transactions automatically.
 
-[Here are the instructions on how to use it.](../wallet-daemon/get-started/daemon-installation.md)
+[Here are the instructions on how to use it.](../../wallet-daemon/get-started/daemon-installation.md)
 
 {% hint style="danger" %}
 **IMPORTANT:** Please be aware that using a wallet daemon will mean that ANY transaction that is generated via your App Secret will be signed automatically. Please ensure there is no way for any unauthorized party to access your App Secret and process unapproved transactions.

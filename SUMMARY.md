@@ -21,7 +21,8 @@
   * [Linking a Player's Wallet](enjin-api/managing-your-players/linking-a-users-wallet.md)
   * [Viewing a Player's NFTs](enjin-api/managing-your-players/viewing-a-users-nfts.md)
   * [Additional Requests](enjin-api/managing-your-players/player-requests.md)
-* [Sending & Receiving](enjin-api/sending-and-receiving-requests.md)
+* [Sending & Receiving](enjin-api/sending-and-receiving-requests/README.md)
+  * [JumpNet Bridges](enjin-api/sending-and-receiving-requests/jumpnet-bridges.md)
 * [Minting Your Assets](enjin-api/minting-your-assets/README.md)
   * [Asset properties](enjin-api/minting-your-assets/asset-properties.md)
 * [Managing Your Assets](enjin-api/managing-your-assets/README.md)
@@ -54,7 +55,7 @@
 
 * [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
 * [🔔 Enjin Product Status](https://www.enjinstatus.com)
-* [💡 Submit Your Feedback](https://feedback.enjin.io)
+* [💡 Submit Feedback](https://feedback.enjin.io)
 * [💲 Product Security](https://hackerone.com/enjin?type=team\&view\_policy=true)
 * [💬 Contact Support](https://enjin.io/support/)
 
