@@ -68,10 +68,10 @@ mutation BridgeAsset(
 
 The `BridgeAssets` mutation allows you to send multiple digital assets/non-fungible tokens (NFTs).
 
-You can send multiple different indexes using the `BridgeAssets` function.
+You can send multiple different indices using the `BridgeAssets` function.
 
 {% hint style="info" %}
-The maximum number of indexes that can be bridged at any given time is 100 per transaction.
+The maximum number of indices that can be bridged at any given time is 100 per transaction.
 {% endhint %}
 
 {% tabs %}
@@ -79,12 +79,12 @@ The maximum number of indexes that can be bridged at any given time is 100 per t
 ```graphql
 mutation BridgeAssets(
   $assetId: String!
-  $assetIndexes: [String!]!
+  $assetIndices: [String!]!
   $wallet: EthAddress
 ) {
   BridgeAssets(
     assetId: $assetId
-    assetIndexes: $assetIndexes
+    assetIndices: $assetIndices
     wallet: $wallet
   ) {
     id
@@ -103,7 +103,7 @@ mutation BridgeAssets(
 **Arguments:**
 
 * `assetId` (type: `String!`, example: `"7000000000000002"`)
-* `assetIndexes` (optional, type: `[String!]!`, example: `[1, 2, 3]`)
+* `assetIndices` (optional, type: `[String!]!`, example: `[1, 2, 3]`)
 * `wallet` (optional, type: `EthAddress`, project-schema only)
 
 ### BridgeClaimAssets
