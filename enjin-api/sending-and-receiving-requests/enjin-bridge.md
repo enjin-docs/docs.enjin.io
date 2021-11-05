@@ -18,11 +18,11 @@ Currently, the asset bridging functionality is only accessible through the Enjin
 
 The Enjin Bridge has 3 mutations:
 
-| Mutation                                               | Usage                                         |
-| ------------------------------------------------------ | --------------------------------------------- |
-| [BridgeAsset](enjin-bridge.md#bridgeasset)             | Used to transfer a single asset.              |
-| [BridgeAssets](enjin-bridge.md#bridgeassets)           | Used to transfer multiple assets.             |
-| [BridgeClaimAssets](enjin-bridge.md#bridgeclaimassets) | Used to claim assets on the opposite network. |
+| Mutation                                              | Usage                                         |
+| ----------------------------------------------------- | --------------------------------------------- |
+| [BridgeAsset](enjin-bridge.md#bridgeasset)            | Used to transfer a single asset.              |
+| [BridgeAssets](enjin-bridge.md#bridgeassets)          | Used to transfer multiple assets.             |
+| [BridgeClaimAsset](enjin-bridge.md#bridgeclaimassets) | Used to claim assets on the opposite network. |
 
 ### BridgeAsset
 
@@ -106,9 +106,9 @@ mutation BridgeAssets(
 * `assetIndices` (optional, type: `[String!]!`, example: `[1, 2, 3]`)
 * `wallet` (optional, type: `EthAddress`, project-schema only)
 
-### BridgeClaimAssets
+### BridgeClaimAsset
 
-The `BridgeClaimAssets` mutation allows you to claim your asset/NFT on the Enjin Bridge.
+The `BridgeClaimAsset` mutation allows you to claim your asset/NFT on the Enjin Bridge.
 
 {% hint style="warning" %}
 This is a **temporary mutation** that will be natively integrated with the upcoming Enjin Wallet 2.0 release. This mutation will therefore be deprecated in the future after support has been implemented into the updated wallet.
