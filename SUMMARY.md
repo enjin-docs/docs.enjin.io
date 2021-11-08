@@ -51,6 +51,10 @@
   * [Handling Cloud Events](sdks/using-event-services/handling-platform-events.md)
 * [Message Logging](sdks/untitled-1.md)
 
+## Enjin Beam
+
+* [What is Enjin Beam?](enjin-beam/what-is-enjin-beam.md)
+
 ## Resources
 
 * [💻 GraphQL Playground](https://jumpnet.cloud.enjin.io)
