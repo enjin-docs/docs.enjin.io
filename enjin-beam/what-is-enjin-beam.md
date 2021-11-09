@@ -46,17 +46,6 @@ Multi-use QRs further branch into:
 
 Learn about the different parameters you can utilize to customize your Beam experience.
 
-| Parameter                    | Type    | Description                                                                                                                                                                                                                |
-| ---------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **IP restriction**           | Boolean | If enabled, users will be restricted from claiming multiple items from the same IP address                                                                                                                                 |
-| **SMS validation**           | Boolean | If enabled, SMS code verification will be required when claiming assets                                                                                                                                                    |
-| **Password verification**    | Boolean | If enabled, users will be required to enter (or set-up) their wallet password to claim assets                                                                                                                              |
-| **Randomized sending order** | Boolean | If enabled, items in the Beam will be distributed in a randomized sequence                                                                                                                                                 |
-| **Claim limit per device**   | Integer | Specify the maximum number of claims possible through an individual Beam for any given device                                                                                                                              |
-| **Beam Tags**                | Array   | You are able to assign tags to individual Beams to easily categorize and analyze claim data                                                                                                                                |
-| **Beam metadata**            | Array   | You are able to assign custom metadata to your Beams (`key` and corresponding `value` parameters)                                                                                                                          |
-| **Reveal Codes**             | String  | Blockchain assets containing reveal codes can be minted and sent via Enjin Beam. When unveiled, these hidden messages can deliver exclusive benefits such as discounts, event tickets, early access, gift cards, and more. |
-
 * **IP restriction: **If enabled, users will be restricted from claiming multiple items from the same IP address.
 * **SMS validation: **If enabled, SMS code verification will be required when claiming assets.
 * **Password verification: **If enabled, users will be required to enter (or set-up) their wallet password to claim assets.
