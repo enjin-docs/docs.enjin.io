@@ -27,13 +27,13 @@ Enjin Beam is a part of the [Enjin Platform](https://enjin.io/platform) product.
 
 ## **Types of Beams**
 
-#### Single-use QRs
+### Single-use QRs
 
 Single-use QRs can be used for one-time claims of an individual asset.
 
 An unique QR code will be generated for each individual asset you want to distribute. Once a single-use QR code is scanned, it is considered depleted and cannot be scanned again.
 
-#### Multi-use QRs
+### Multi-use QRs
 
 Multi-use QRs can be used to distribute multiple assets using the same QR code. This allows you to create a single QR code to be displayed to a channel where multiple users are expected to scan the same QR code.
 
@@ -46,11 +46,22 @@ Multi-use QRs further branch into:
 
 Learn about the different parameters you can utilize to customize your Beam experience.
 
+| Parameter                    | Type    | Description                                                                                                                                                                                                                |
+| ---------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **IP restriction**           | Boolean | If enabled, users will be restricted from claiming multiple items from the same IP address                                                                                                                                 |
+| **SMS validation**           | Boolean | If enabled, SMS code verification will be required when claiming assets                                                                                                                                                    |
+| **Password verification**    | Boolean | If enabled, users will be required to enter (or set-up) their wallet password to claim assets                                                                                                                              |
+| **Randomized sending order** | Boolean | If enabled, items in the Beam will be distributed in a randomized sequence                                                                                                                                                 |
+| **Claim limit per device**   | Integer | Specify the maximum number of claims possible through an individual Beam for any given device                                                                                                                              |
+| **Beam Tags**                | Array   | You are able to assign tags to individual Beams to easily categorize and analyze claim data                                                                                                                                |
+| **Beam metadata**            | Array   | You are able to assign custom metadata to your Beams (`key` and corresponding `value` parameters)                                                                                                                          |
+| **Reveal Codes**             | String  | Blockchain assets containing reveal codes can be minted and sent via Enjin Beam. When unveiled, these hidden messages can deliver exclusive benefits such as discounts, event tickets, early access, gift cards, and more. |
+
 * **IP restriction: **If enabled, users will be restricted from claiming multiple items from the same IP address.
 * **SMS validation: **If enabled, SMS code verification will be required when claiming assets.
 * **Password verification: **If enabled, users will be required to enter (or set-up) their wallet password to claim assets.
 * **Randomized sending order: **If enabled, items in the Beam will be distributed in a randomized sequence.
 * **Claim limit per device: **Specify the maximum number of claims possible through an individual Beam for any given device.
-* **Beam Tags** (optional): You are able to assing tags to individual Beams to easily categorize and analyze claim data.
+* **Beam Tags** (optional): You are able to assign tags to individual Beams to easily categorize and analyze claim data.
 * **Beam Metadata** (optional): You are able to assign custom metadata to your Beams (`key` and corresponding `value` parameters)
 * **Reveal Codes: **Blockchain assets containing [reveal codes](https://enjin.io/help/enjin-beam-reveal-code) can be minted and sent via Enjin Beam. When unveiled, these hidden messages can deliver exclusive benefits such as discounts, event tickets, early access, gift cards, and more.
