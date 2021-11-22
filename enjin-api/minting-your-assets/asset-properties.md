@@ -54,10 +54,10 @@ If using ENJ, multiply the value by 10^18 to include 18 decimals. When you first
 You can choose to charge a transfer fee for every peer-to-peer transaction that your users make. This allows you to monetize the economy that surrounds your game and gain revenue by fostering interesting new social dynamics within your community.
 
 * **None**: No Transfer fees are charged when this item changes hands.
-* **Per_Crypto_Item**: This refers to transfer fee per asset in ENJ, which is cumulative based on the number of assets that is being sent. For example, if an Apple has a 0.1 ENJ transfer fee per item and the user Simon sends 10 apples to user1, then Simon would be charged 1 ENJ for the transaction that would go to the creator of the apple asset.
-* **Per_Transfer**: This refers to transfer fee, per transfer, in ENJ. For example, if an Apple has 0.1 ENJ fee per transfer and Simon sends 10 apples to user1, Simon would be charged 0.1 ENJ for the transaction that would go to the creator of the apple asset.
-* **Ratio_Cut**: Note, to use ratio_cut, only fungible assets are allowed. A % cut of the total items is subtracted from the total for the creator, with the sender paying the total price. For example, if transferring 500 apples with a 10% ratio cut (0.1) the recipient would get 450 apples and the creator, would receive 50 apples, with the sender paying 500 total for the transaction.
-* **Ratio_Extra**: Note, to use ratio_extra, only fungible assets are allowed. A tax that is charged ON TOP of everything. For example, if transferring 500 apples with a 10% ratio extra, the user would get 500 apples and the creator would receive 50 apples, and the sender pays 550 apples total for the transaction.
+* **Per\_Crypto\_Item**: This refers to transfer fee per asset in ENJ, which is cumulative based on the number of assets that is being sent. For example, if an Apple has a 0.1 ENJ transfer fee per item and the user Simon sends 10 apples to user1, then Simon would be charged 1 ENJ for the transaction that would go to the creator of the apple asset.
+* **Per\_Transfer**: This refers to transfer fee, per transfer, in ENJ. For example, if an Apple has 0.1 ENJ fee per transfer and Simon sends 10 apples to user1, Simon would be charged 0.1 ENJ for the transaction that would go to the creator of the apple asset.
+* **Ratio\_Cut**: Note, to use ratio\_cut, only fungible assets are allowed. A % cut of the total items is subtracted from the total for the creator, with the sender paying the total price. For example, if transferring 500 apples with a 10% ratio cut (0.1) the recipient would get 450 apples and the creator, would receive 50 apples, with the sender paying 500 total for the transaction.
+* **Ratio\_Extra**: Note, to use ratio\_extra, only fungible assets are allowed. A tax that is charged ON TOP of everything. For example, if transferring 500 apples with a 10% ratio extra, the user would get 500 apples and the creator would receive 50 apples, and the sender pays 550 apples total for the transaction.
 
 **transferFeeSettings:**\
 The token ID of the token you want to use as the transfer fee. Use 0 if you want your users to pay you in Enjin Coin.
@@ -65,7 +65,7 @@ The token ID of the token you want to use as the transfer fee. Use 0 if you want
 **meltValue**\
 The amount of ENJ you want to use per unit of the item you are creating. You need to use a minimal amount of ENJ to back your items depending on how many you are creating in your initial reserve (the min-cost will be listed beside the label). In general, the more items of one type you are making, the less ENJ you need **per unit** of item.
 
-Every token minted needs to be backed by aminimum amount of ENJ that can be calculated using this formula: 0.5 \* Math.sqrt(initialReserve) / initialReserve
+Every token minted needs to be backed by aminimum amount of ENJ that can be calculated using this formula: 0.1 \* Math.sqrt(initialReserve) / initialReserve
 
 **supplyModel**: This is how the item pool behaves with respect to minting and melting.
 

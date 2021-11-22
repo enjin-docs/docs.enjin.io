@@ -12,7 +12,7 @@ description: Find all of the requests that can be run by a Project
 {% tab title="GraphQL" %}
 ```graphql
 query GetAccessToken {
-  AuthProject(id: 2939, secret: "appsecret"){
+  AuthProject(uuid: <string>, secret: "appsecret"){
     accessToken
     expiresIn
   }
