@@ -11,16 +11,12 @@ Create a user account and link a wallet address to it, this will verify the user
 Create an Enjin identity for the user by running this query
 
 {% tabs %}
-{% tab title="GraphQL V1" %}
+{% tab title="GraphQL V2" %}
 ```graphql
-mutation addUser {
-  CreateEnjinUser(name: "Name here") {
+mutation createPlayer {
+  CreatePlayer(id: String!) {
       id
-      accessTokens
-      identities {
-          linkingCode
-          linkingCodeQr
-       }
+    auth
    }
  }
 ```
@@ -33,25 +29,22 @@ _We recommend setting the username from your app as a static identifier from you
 
 ### **Step 2**
 
-The **addUser **query will return a linking code that you can display to the user. The user will scan the linking code with the Enjin Wallet and link their wallet to your platform.
+The **getPlayer** query will return a linking code that you can display to the user. The user will scan the linking code with the Enjin Wallet and link their wallet to your platform.
 
 Once the user is linked, you can run the following query to check their linking code or the details of their linked wallet.
 
 {% tabs %}
-{% tab title="GraphQL V1" %}
+{% tab title="GraphQL V2" %}
 ```graphql
-query getUser {
-  EnjinOauth(name:"<unique name for the user>") {
+query getPlayer {
+  GetPlayer(id: "<unique name for the user>") {
     id
-    identities {
-        wallet {
-        ethAddress
-     }
-      linkingCode
-      linkingCodeQr
+    linkingInfo {
+      qrSize: qr
     }
   }
 }
+
 ```
 {% endtab %}
 {% endtabs %}
