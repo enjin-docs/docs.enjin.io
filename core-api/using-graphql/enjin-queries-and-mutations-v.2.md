@@ -4,6 +4,12 @@ description: A list of all Enjin Queries and Mutations for our latest v.2 schema
 
 # Enjin Queries & Mutations (V.2)
 
+V.2 schemas are now available as a beta feature!
+
+{% hint style="info" %}
+You can enable v.2 schemas on your project (Mainnet, JumpNet or Kovan) by following this guide [here](https://enjin.io/help/v2-schemas-beta-release).&#x20;
+{% endhint %}
+
 ### Enjin Queries
 
 Querying is the way to ask for data, it’s similar to the GET action in REST-based APIs.
@@ -17,14 +23,14 @@ Here is a list of the Enjin object types you can query through the API:
 * **GetGasPrice:** Use this query to retrieve the latest gas prices.
 * **GetWallet**: Use this query to retrieve information from a specific wallet.
 * **GetWallets:** Use this query to retrieve information from multiple wallets.
-* **GetPlatform: **Use this query to get information about the Platform.
+* **GetPlatform:** Use this query to get information about the Platform.
 * **GetPlayer:** Use this query to get information about your player on the Enjin platform.
 * **GetPlayers:** Use this to query multiple players to retrieve information about them.
 * **GetProject:** Use this query to get information about an app on the Enjin platform.
 * **GetAsset:** Use this query to retrieve asset information.
 * **GetAssets:** Use this query to retrieve information about multiple assets.
 * **GetTransaction:** Use this to query transaction requests and their status.
-* **GetTransactions:** Use this to query multiple transaction requests and their statuses. 
+* **GetTransactions:** Use this to query multiple transaction requests and their statuses.&#x20;
 
 ### Enjin Mutations
 
@@ -33,8 +39,8 @@ There are different types of Enjin object types that can be mutated through the 
 Here is a list of the Enjin object types that can be mutated:
 
 * **AdvancedSendAsset:** Use this mutation to send one or more assets in a single transfer.
-* **ApproveENJ: **Use this mutation to approve how much ENJ to spend.
-* **CancelTransaction: **Use this mutation to cancel your transactions.
+* **ApproveENJ:** Use this mutation to approve how much ENJ to spend.
+* **CancelTransaction:** Use this mutation to cancel your transactions.
 * **CompleteTrade:** Use this mutation to complete a trade between two wallets.
 * **CreatePlayer:** Use this mutation to create your player in your integration.
 * **CreateAsset:** Use this mutation to create your asset or NFT on your project.
@@ -46,7 +52,7 @@ Here is a list of the Enjin object types that can be mutated:
 * **MeltAsset:** Use this mutation to melt an asset from your project.
 * **Message:** Use this mutation to prove wallet ownership.
 * **MintAsset:** Use this mutation to mint an asset from your project.
-* **ReleaseReserve:** Use this mutation to release the asset reserve. 
+* **ReleaseReserve:** Use this mutation to release the asset reserve.&#x20;
 * **SendENJ:** Use this mutation to send ENJ or JENJ.
 * **SendAsset:** Use this mutation to send your assets to and from players.
 * **SetApprovalForAll:** Use this mutation to allow an operator complete control on all assets.
@@ -56,7 +62,7 @@ Here is a list of the Enjin object types that can be mutated:
 * **SetTransferable:** Use this mutation to set a transferable option to your assets.
 * **SetWhitelisted:** Use this mutation to set a whitelist option to your assets.
 * **UnlinkWallet:** Use this mutation to unlink a wallet from your project.
-* **UpdateName:** Use this mutation to update an asset name. 
+* **UpdateName:** Use this mutation to update an asset name.&#x20;
 
 You can find comprehensive information about what data can be queried and mutated using these Object Types in the [**GraphiQL Documentation Explorer**](https://jumpnet.cloud.enjin.io/graphql/playground)**.**
 
@@ -72,8 +78,10 @@ Simply slide up the bottom bar (Query Variables) and begin inputting the variabl
 
 ### Browsing the Schema
 
-On the right side, there is the documentation panel to expand and browse for all the requests and parameters you can use. See [here](https://graphql.org/learn/queries/) for documentation on Queries and Mutations. 
+On the right side, there is the documentation panel to expand and browse for all the requests and parameters you can use. See [here](https://graphql.org/learn/queries/) for documentation on Queries and Mutations.&#x20;
 
 ### Making a Request
 
 On the (top) left panel, you would enter in your request to be made to the Enjin Cloud. Press the `Play`button at the top to submit your request, and you will receive a response on the right panel. At times, a notification will appear in your wallet to sign a transaction depending on the request made.
+
+_**Note:** You can now enable v.2 schemas on your project (Mainnet, JumpNet and/or Kovan). To do this, follow this guide_ [_here_](https://enjin.io/help/v2-schemas-beta-release)_._
