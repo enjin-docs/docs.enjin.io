@@ -10,7 +10,7 @@ The documentation for the Enjin SDKs pertain to the Project and Player schemas w
 
 ### Creating the Client
 
-The first step we take in setting up our `ProjectClient` is to instantiate it. During this we must specify which network we are using. Our choices are Mainnet, JumpNet, and Kovan. URLs for these networks can be programmatically acquired from the `EnjinHosts` class and passed to the clients. The chosen network must match the one we created our project on.
+The first step we take in setting up our `ProjectClient` is to instantiate it. During this we must specify which network we are using. Our choices are Mainnet, JumpNet, and Goerli. URLs for these networks can be programmatically acquired from the `EnjinHosts` class and passed to the clients. The chosen network must match the one we created our project on.
 
 {% tabs %}
 {% tab title="Java" %}
@@ -20,19 +20,19 @@ import com.enjin.sdk.ProjectClient;
 
 String mainnet = EnjinHosts.MAIN_NET;
 String jumpnet = EnjinHosts.JUMP_NET;
-String kovan = EnjinHosts.KOVAN;
+String goerli = EnjinHosts.GOERLI;
 
 ProjectClient client = new ProjectClient(/* Enjin host here */);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK;
 
 System.Uri mainnet = EnjinHosts.MAIN_NET;
 System.Uri jumpnet = EnjinHosts.JUMP_NET;
-System.Uri kovan = EnjinHosts.KOVAN;
+System.Uri goerli = EnjinHosts.GOERLI;
 
 ProjectClient client = new ProjectClient(/* Enjin host here */);
 ```
@@ -49,7 +49,7 @@ using namespace enjin::sdk;
 
 std::string mainnet = MAIN_NET;
 std::string jumpnet = JUMP_NET;
-std::string kovan = KOVAN;
+std::string goerli = GOERLI;
 
 std::unique_ptr<ProjectClient> client = ProjectClientBuilder()
         .base_uri(/* Enjin host here */)
@@ -60,7 +60,7 @@ std::unique_ptr<ProjectClient> client = ProjectClientBuilder()
 
 ### Creating the Authentication Request
 
-Before creating the `AuthProject` request, we must first gather our project's UUID and secret key. To do so, we may navigate to our project page on the Enjin platform and find these items under `Settings`  -&gt;`API Credentials`.
+Before creating the `AuthProject` request, we must first gather our project's UUID and secret key. To do so, we may navigate to our project page on the Enjin platform and find these items under `Settings`  ->`API Credentials`.
 
 Once the UUID and secret have been acquired, we can pass them to the `AuthProject` request we have created.
 
@@ -79,7 +79,7 @@ AuthProject req = new AuthProject()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -115,7 +115,7 @@ GraphQLResponse<AccessToken> res = client.authProject(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 
@@ -143,7 +143,7 @@ boolean result = res.isSuccess();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 bool result = res.IsSuccess;
 ```
@@ -167,7 +167,7 @@ AccessToken accessToken = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -197,7 +197,7 @@ client.auth(accessToken.getToken());
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 client.Auth(accessToken.Token);
 ```
@@ -219,7 +219,7 @@ boolean result = client.isAuthenticated();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 bool result = client.IsAuthenticated;
 ```
@@ -241,7 +241,7 @@ long time = accessToken.getExpiresIn();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 long time = accessToken.ExpiresIn.Value;
 ```
@@ -276,7 +276,7 @@ CreatePlayer req = new CreatePlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -315,7 +315,7 @@ AccessToken accessToken = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -357,7 +357,7 @@ AuthPlayer req = new AuthPlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -393,7 +393,7 @@ AccessToken accessToken = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -436,7 +436,7 @@ PlayerClient playerClient = new PlayerClient("<enjin-host-url>");
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK;
 
@@ -469,7 +469,7 @@ playerClient.auth(accessToken.getToken());
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 playerClient.Auth(accessToken.Token);
 ```
@@ -491,7 +491,7 @@ boolean result = playerClient.isAuthenticated();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 bool result = playerClient.IsAuthenticated;
 ```
@@ -503,4 +503,3 @@ bool result = player_client->is_authenticated();
 ```
 {% endtab %}
 {% endtabs %}
-
