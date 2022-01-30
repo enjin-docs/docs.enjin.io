@@ -13,7 +13,7 @@ Before you query the API, it’s recommended to run your queries through the vis
 **You can use the following GraphiQL web interfaces to interact with the Enjin API:**
 
 * **Ethereum (Mainnet)** API (GraphiQL): [**https://cloud.enjin.io/graphql/playground**](https://cloud.enjin.io/graphql/playground)
-* **Kovan (Testnet)** API (GraphiQL):** **[**https://kovan.cloud.enjin.io/graphql/playground**](https://kovan.cloud.enjin.io/graphql/playground)****
+* **Kovan (Testnet)** API (GraphiQL): **** [**https://kovan.cloud.enjin.io/graphql/playground**](https://kovan.cloud.enjin.io/graphql/playground)****
 * **JumpNet** API (GraphiQL): [**https://jumpnet.cloud.enjin.io/graphql/playground**](https://jumpnet.cloud.enjin.io/graphql/playground)****
 
 ### GraphiQL Desktop App
@@ -26,4 +26,4 @@ Here are the endpoints to use within the desktop app:
 
 * **Ethereum (Mainnet)** GraphiQL Endpoint: [**https://cloud.enjin.io/graphql**](https://cloud.enjin.io/graphql)
 * **Kovan (Testnet)** GraphiQL Endpoint: [**https://kovan.cloud.enjin.io/graphql**](https://kovan.cloud.enjin.io/graphql)
-* **JumpNet** API (GraphiQL): [**https://jumpnet.cloud.enjin.io/graphiql**](https://jumpnet.cloud.enjin.io/graphiql)
+* **JumpNet** API (GraphiQL): [**https://jumpnet.cloud.enjin.io/graphql**](https://jumpnet.cloud.enjin.io/graphql)****
