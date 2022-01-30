@@ -1,9 +1,9 @@
 # Managing Players
 
 {% hint style="info" %}
-## Alpha Documentation
+#### Beta Documentation
 
-The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Beta** release. To enable The Project and Player schema, please follow this guide [here](https://enjin.io/help/v2-schemas-beta-release). For any queries, please contact [Enjin Support](mailto:support@enjin.io).
 {% endhint %}
 
 ## Creating a New Player
@@ -24,7 +24,7 @@ CreatePlayer req = new CreatePlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -60,7 +60,7 @@ GraphQLResponse<AccessToken> res = client.createPlayer(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -106,7 +106,7 @@ GetPlayer req = new GetPlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -138,7 +138,7 @@ GetPlayer req = new GetPlayer();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 
@@ -174,7 +174,7 @@ Player player = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -220,7 +220,7 @@ String qr = linkingInfo.getQr();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -265,7 +265,7 @@ GetPlayer req = new GetPlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 using Enjin.SDK.Shared;
@@ -303,7 +303,7 @@ GetPlayer req = new GetPlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 using Enjin.SDK.Shared;
@@ -345,7 +345,7 @@ LinkingInfo linkingInfo = player.getLinkingInfo();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -403,7 +403,7 @@ GetPlayer req = new GetPlayer()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 using Enjin.SDK.Shared;
@@ -442,7 +442,7 @@ Player player = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -483,7 +483,7 @@ String ethAddress = wallet.getEthAddress();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -525,7 +525,7 @@ UnlinkWallet req = new UnlinkWallet()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -562,7 +562,7 @@ Boolean result = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 
@@ -604,7 +604,7 @@ UnlinkWallet req = new UnlinkWallet();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 
@@ -639,7 +639,7 @@ Boolean result = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 
@@ -664,4 +664,3 @@ bool result = res.get_result().value();
 {% endtabs %}
 
 The Boolean value contained within the response indicates if the unlink operation was successful. A value of `true` tells us that we successful unlinked our player, whereas a value of `false` may imply that the our player was not linked when we sent our request.
-

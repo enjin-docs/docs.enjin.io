@@ -1,9 +1,9 @@
 # Managing Assets
 
 {% hint style="info" %}
-## Alpha Documentation
+#### Beta Documentation
 
-The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Beta** release. To enable The Project and Player schema, please follow this guide [here](https://enjin.io/help/v2-schemas-beta-release). For any queries, please contact [Enjin Support](mailto:support@enjin.io).
 {% endhint %}
 
 ## Minting Assets
@@ -25,7 +25,7 @@ MintInput input = new MintInput()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -50,7 +50,7 @@ MintInput input = MintInput()
 
 #### Step 2: Create the Request
 
-Once we have created all the inputs we desire we can start taking a look at creating the request itself. For the request we will use the `MintAsset` request. This request requires us to provide the address of a project wallet, the ID of the asset we are minting, and the input data for the mint\(s\) we are performing as shown below:
+Once we have created all the inputs we desire we can start taking a look at creating the request itself. For the request we will use the `MintAsset` request. This request requires us to provide the address of a project wallet, the ID of the asset we are minting, and the input data for the mint(s) we are performing as shown below:
 
 {% tabs %}
 {% tab title="Java" %}
@@ -64,7 +64,7 @@ MintAsset req = new MintAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -104,7 +104,7 @@ GraphQLResponse<Request> res = client.mintAsset(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -146,7 +146,7 @@ Melt melt = new Melt()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -188,7 +188,7 @@ MeltAsset req = new MeltAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -223,7 +223,7 @@ MeltAsset req = new MeltAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 
@@ -259,7 +259,7 @@ GraphQLResponse<Request> res = client.meltAsset(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -307,7 +307,7 @@ SendAsset req = new SendAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -351,7 +351,7 @@ SendAsset req = new SendAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 
@@ -393,7 +393,7 @@ GraphQLResponse<Request> res = client.sendAsset(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -437,7 +437,7 @@ Transfers transfers = new Transfers()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Models;
 
@@ -472,7 +472,7 @@ If the asset ID is omitted, then the transfer data will send **ENJ** instead.
 
 #### Step 2: Create the Request
 
-Next we create the `AdvancedSendAsset` request that we will be sending to the platform. For this request we will be using a chaining method to pass the transfer data we created as well as any additional transfers we might add. However, what additional argument\(s\) we set for our request is determined by the schema we are using.
+Next we create the `AdvancedSendAsset` request that we will be sending to the platform. For this request we will be using a chaining method to pass the transfer data we created as well as any additional transfers we might add. However, what additional argument(s) we set for our request is determined by the schema we are using.
 
 When using the project schema to send the request we must specify a project wallet that the transaction will operate on. An example of the created request can be seen below:
 
@@ -487,7 +487,7 @@ AdvancedSendAsset req = new AdvancedSendAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.ProjectSchema;
 
@@ -510,7 +510,7 @@ AdvancedSendAsset req = AdvancedSendAsset()
 {% endtab %}
 {% endtabs %}
 
-When using the player schema to send the request we do not specify a wallet for the transaction as this is inferred from our player client's credentials. Therefore we need only pass the transfer\(s\) data as shown:
+When using the player schema to send the request we do not specify a wallet for the transaction as this is inferred from our player client's credentials. Therefore we need only pass the transfer(s) data as shown:
 
 {% tabs %}
 {% tab title="Java" %}
@@ -522,7 +522,7 @@ AdvancedSendAsset req = new AdvancedSendAsset()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.PlayerSchema;
 
@@ -558,7 +558,7 @@ GraphQLResponse<Request> res = client.advancedSendAsset(req);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -581,4 +581,3 @@ GraphqlResponse<Request> res = client->advanced_send_asset(req).get();
 ```
 {% endtab %}
 {% endtabs %}
-

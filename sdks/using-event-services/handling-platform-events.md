@@ -1,9 +1,9 @@
 # Handling Cloud Events
 
 {% hint style="info" %}
-## Alpha Documentation
+#### Beta Documentation
 
-The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Beta** release. To enable The Project and Player schema, please follow this guide [here](https://enjin.io/help/v2-schemas-beta-release). For any queries, please contact [Enjin Support](mailto:support@enjin.io).
 {% endhint %}
 
 ## Creating a Event Listener
@@ -26,7 +26,7 @@ class Listener implements NotificationListener {
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 using Enjin.SDK.Models;
@@ -78,7 +78,7 @@ NotificationListenerRegistration reg = service.registerListener(new Listener());
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 
@@ -112,7 +112,7 @@ service.unregisterListener(reg.getListener());
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 // Using a listener registration
 service.UnregisterListener(reg.Listener);
@@ -146,7 +146,7 @@ service.subscribeToWallet("<the-wallet's-address>");
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 service.SubscribeToProject("<the-project's-uuid>");
 
@@ -192,7 +192,7 @@ service.isSubscribedToWallet("<the-wallet's-address>");
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 service.IsSubscribedToProject("<the-project's-uuid>");
 
@@ -238,7 +238,7 @@ service.unsubscribeToWallet("<the-wallet's-address>");
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 service.UnsubscribeToProject("<the-project's-uuid>");
 
@@ -282,7 +282,7 @@ service.registerListenerWithMatcher(listener, notificationEvent -> {
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 service.RegisterListenerWithMatcher(listener, eventType => {
     // Place code here
@@ -324,7 +324,7 @@ service.registerListenerIncludingTypes(listener,
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 
@@ -368,7 +368,7 @@ service.registerListenerExcludingTypes(listener,
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 
@@ -411,7 +411,7 @@ class Listener implements NotificationListener { /* ... */ }
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 using Enjin.SDK.Models;
@@ -421,4 +421,3 @@ class Listener : IEventListener { /* ... */ }
 ```
 {% endtab %}
 {% endtabs %}
-

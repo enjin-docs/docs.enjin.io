@@ -1,9 +1,9 @@
 # Setting up a Event Service
 
 {% hint style="info" %}
-## Alpha Documentation
+#### Beta Documentation
 
-The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Alpha** release. The Project and Player schemas are **not yet publicly available** and therefore this documentation is limited only to those who already have access. For any queries, please contact [Enjin Support](mailto:support@enjin.io).
+The documentation for the Enjin SDKs pertain to the Project and Player schemas which are currently in an **Beta** release. To enable The Project and Player schema, please follow this guide [here](https://enjin.io/help/v2-schemas-beta-release). For any queries, please contact [Enjin Support](mailto:support@enjin.io).
 {% endhint %}
 
 ## Setup & Start
@@ -24,7 +24,7 @@ GetPlatform req = new GetPlatform()
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Shared;
 
@@ -60,7 +60,7 @@ Platform platform = res.getData();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Graphql;
 using Enjin.SDK.Models;
@@ -101,7 +101,7 @@ PusherNotificationService service = new PusherNotificationService(platform);
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using Enjin.SDK.Events;
 
@@ -132,7 +132,7 @@ Future<Void> future = service.start();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 using System.Threading.Tasks;
 
@@ -158,7 +158,7 @@ boolean result = service.isConnected();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 bool result = service.IsConnected();
 ```
@@ -182,7 +182,7 @@ Future<Void> future = service.shutdown();
 ```
 {% endtab %}
 
-{% tab title="C\#" %}
+{% tab title="C#" %}
 ```csharp
 Task task = service.Shutdown();
 ```
@@ -225,9 +225,9 @@ service.start(new ConnectionEventListener() {
 The `ConnectionEventListener` interface utilizes default methods, which enables us to override only the methods we wish to implement ourselves and ignore the rest.
 {% endhint %}
 
-### C\# SDK
+### C# SDK
 
-For the C\# SDK we utilize `EventHandler` from the .NET standard library for raising events related to the service's internal state. The example code block below shows how these handlers may be used with lambda expressions.
+For the C# SDK we utilize `EventHandler` from the .NET standard library for raising events related to the service's internal state. The example code block below shows how these handlers may be used with lambda expressions.
 
 ```csharp
 service.Connected += (sender, args) => { /* Place code here */ };
@@ -248,4 +248,3 @@ service->set_disconnected_handler([]() { /* Place code here */ });
 
 service->set_error_handler([](const std::exception& e) { /* Place code here */ });
 ```
-
