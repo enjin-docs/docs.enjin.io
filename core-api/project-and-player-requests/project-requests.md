@@ -8,6 +8,8 @@ description: Find all of the requests that can be run by a Project
 
 ### AuthProject
 
+Use this query to obtain an access asset for your app.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -23,6 +25,8 @@ query GetAccessToken {
 
 ### AuthPlayer
 
+Use this query to obtain an access asset for a player.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -37,6 +41,8 @@ query GetPlayerAccessToken {
 {% endtabs %}
 
 ### **GetProject**
+
+Use this query to get information about your app.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -56,6 +62,8 @@ query GetPlayerAccessToken {
 {% endtabs %}
 
 ### GetPlayer + GetPlayers
+
+Use this query to get information about one of your players.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -80,6 +88,8 @@ query {
 
 ### GetBalances
 
+Use this query to get information about balances within your app.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -98,6 +108,8 @@ query {
 
 ### GetGasPrice
 
+Use this query to get the latest gas prices.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -114,6 +126,8 @@ query {
 {% endtabs %}
 
 ### GetPlatform
+
+Use this query to get information about the Platform.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -144,6 +158,8 @@ query {
 
 ### GetTransaction + GetTransactions
 
+Use this to query a transaction.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -169,6 +185,8 @@ query {
 {% endtabs %}
 
 ### GetWallet + GetWallets
+
+Get a player wallet from an eth address or user id.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -224,6 +242,8 @@ query {
 ## Mutations
 
 ### **AdvancedSendAsset**
+
+Send one or more assets in one transaction.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -288,6 +308,8 @@ mutation {
 {% endtabs %}
 
 ### **CancelTransaction**
+
+Use this mutation to cancel a transaction.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -359,6 +381,8 @@ mutation {
 
 ### **CreateAsset**
 
+Create an asset.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -389,6 +413,8 @@ mutation {
 
 ### **CreatePlayer**
 
+Use this mutation to create a player of your app.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -402,6 +428,8 @@ mutation {
 {% endtabs %}
 
 ### DeletePlayer
+
+Use this mutation to delete a player from your app.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -471,6 +499,8 @@ mutation {
 
 ### InvalidateAssetMetadata
 
+Use this mutation to invalidate the cached asset metadata.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -482,6 +512,8 @@ mutation InvalidateTokenMetadata {
 {% endtabs %}
 
 ### MeltAsset
+
+Melt an asset.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -510,6 +542,8 @@ mutation {
 
 ### Message
 
+Sign a message to prove wallet ownership.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -528,6 +562,8 @@ mutation {
 {% endtabs %}
 
 ### MintAsset
+
+Mint an asset.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -630,6 +666,8 @@ mutation {
 
 ### SendAsset
 
+Send an asset.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -660,6 +698,8 @@ mutation {
 
 ### SetApprovalForAll
 
+Allow an operator complete control on all assets owned by caller.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -687,6 +727,8 @@ mutation {
 {% endtabs %}
 
 ### SetUri
+
+Set the asset metadata uri.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -716,6 +758,8 @@ mutation {
 
 ### SetMeltFee
 
+Set the melt fee of an asset.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -743,6 +787,8 @@ mutation {
 {% endtabs %}
 
 ### SetTransferFee
+
+Set the transfer fee of an asset.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -772,6 +818,8 @@ mutation {
 
 ### SetTransferable
 
+Set if an asset can be transferred or not.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -799,6 +847,8 @@ mutation {
 {% endtabs %}
 
 ### SetWhitelisted
+
+Set the asset whitelist.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -829,6 +879,8 @@ mutation {
 {% endtabs %}
 
 ### UnlinkWallet
+
+Use this mutation to unlink a wallet from your app.
 
 {% tabs %}
 {% tab title="GraphQL" %}

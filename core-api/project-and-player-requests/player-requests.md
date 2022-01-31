@@ -8,6 +8,8 @@ description: Find all of the requests that can be run by a Player
 
 ### GetAsset + GetAssets
 
+Use this to query assets.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -28,6 +30,8 @@ query {
 
 ### GetBalances
 
+Use this to query the player's asset balances.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -46,6 +50,8 @@ query{
 
 ### GetGasPrice
 
+Use this query to get the latest gas prices.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -62,6 +68,8 @@ query{
 {% endtabs %}
 
 ### GetPlatform
+
+Use this query to get information about the Platform.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -92,6 +100,8 @@ query {
 
 ### GetPlayer
 
+Use this query to get information about the player.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -115,7 +125,9 @@ query {
 
 ### GetProject
 
-```text
+Use this query to get information about your app.
+
+```
 {
   GetProject {
     uuid
@@ -129,6 +141,8 @@ query {
 ```
 
 ### GetTransaction + GetTransactions
+
+Use this to query a transaction broadcast by the player.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -155,6 +169,8 @@ query {
 {% endtabs %}
 
 ### GetWallet
+
+Get the wallet for the player.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -191,6 +207,8 @@ query {
 
 ### AdvancedSendAsset
 
+Send one or more assets in one transaction.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -218,6 +236,8 @@ mutation {
 
 ### CancelTransaction
 
+Use this mutation to cancel a transaction.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -229,6 +249,8 @@ mutation {
 {% endtabs %}
 
 ### MeltAsset
+
+Melt an asset.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -257,6 +279,8 @@ mutation {
 
 ### Message
 
+Sign a message to prove wallet ownership.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -275,6 +299,8 @@ mutation {
 {% endtabs %}
 
 ### SendENJ or JENJ
+
+Send ENJ.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -296,6 +322,8 @@ mutation {
 {% endtabs %}
 
 ### SendAsset
+
+Send an asset.
 
 {% tabs %}
 {% tab title="GraphQL" %}
@@ -327,6 +355,8 @@ mutation {
 
 ### SetApprovalForAll
 
+Allow an operator complete control on all assets owned by caller.
+
 {% tabs %}
 {% tab title="GraphQL" %}
 ```graphql
@@ -352,4 +382,3 @@ mutation {
 ```
 {% endtab %}
 {% endtabs %}
-
