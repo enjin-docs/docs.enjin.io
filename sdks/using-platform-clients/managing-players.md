@@ -567,9 +567,9 @@ Boolean result = res.getData();
 using Enjin.SDK.Graphql;
 
 // Using a authenticated ProjectClient
-GraphqlResponse<bool> res = client.UnlinkWallet(req).Result;
+GraphqlResponse<bool?> res = client.UnlinkWallet(req).Result;
 
-bool result = res.Result;
+bool? result = res.Result;
 ```
 {% endtab %}
 
@@ -644,9 +644,9 @@ Boolean result = res.getData();
 using Enjin.SDK.Graphql;
 
 // Using a authenticated PlayerClient
-GraphqlResponse<bool> res = client.UnlinkWallet(req).Result;
+GraphqlResponse<bool?> res = client.UnlinkWallet(req).Result;
 
-bool result = res.Result;
+bool? result = res.Result;
 ```
 {% endtab %}
 
